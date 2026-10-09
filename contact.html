@@ -445,6 +445,47 @@
             box-shadow: 0 0 0 3px rgba(255, 69, 34, 0.15);
         }
 
+        .ct-phone-input-wrap {
+            display: flex;
+            gap: 8px;
+            align-items: stretch;
+            width: 100%;
+        }
+
+        .ct-country-select {
+            width: 136px;
+            flex-shrink: 0;
+            padding: 14px 10px;
+            background: #ffffff;
+            border: 1.5px solid rgba(0, 0, 0, 0.28);
+            border-radius: 8px;
+            font-family: var(--font-sans);
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #000000;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23111111' d='M0 0l5 5 5-5z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            padding-right: 28px;
+        }
+
+        .ct-country-select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(255, 69, 34, 0.15);
+        }
+
+        .ct-phone-input {
+            flex: 1;
+            min-width: 0;
+        }
+
         .ct-field-textarea {
             resize: vertical;
             min-height: 115px;
@@ -493,14 +534,16 @@
         }
 
         .ct-field.has-error .ct-field-input,
-        .ct-field.has-error .ct-field-textarea {
+        .ct-field.has-error .ct-field-textarea,
+        .ct-field.has-error .ct-country-select {
             border-color: #D32F2F !important;
             background: #FFFDFD;
             box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.12) !important;
         }
 
         .ct-field.is-valid .ct-field-input,
-        .ct-field.is-valid .ct-field-textarea {
+        .ct-field.is-valid .ct-field-textarea,
+        .ct-field.is-valid .ct-country-select {
             border-color: rgba(46, 125, 50, 0.6);
         }
 
@@ -601,8 +644,14 @@
                 border-radius: 12px;
             }
             .ct-field-input,
-            .ct-field-textarea {
+            .ct-field-textarea,
+            .ct-country-select {
                 font-size: 16px !important; /* Prevents auto-zoom on iOS */
+            }
+            .ct-country-select {
+                width: 120px;
+                padding-left: 8px;
+                padding-right: 22px;
             }
         }
     </style>
@@ -796,15 +845,39 @@
                         <div class="ct-field-error" id="nameError" role="alert"></div>
                     </div>
 
-                    <!-- Phone -->
+                    <!-- Phone with Country Code -->
                     <div class="ct-field" id="fieldPhoneGroup">
-                        <div class="ct-field-header">
-                            <label class="ct-field-label" for="clientPhone">Phone Number</label>
-                            <span style="font-family:var(--font-mono);font-size:0.6875rem;color:rgba(17,17,17,0.45);text-transform:uppercase;">Optional</span>
+                        <label class="ct-field-label" for="clientPhone">Phone Number <span style="color:var(--accent);" aria-hidden="true">*</span></label>
+                        <div class="ct-phone-input-wrap">
+                            <select id="countryCode" name="country_code" class="ct-country-select" aria-label="Select Country Code">
+                                <option value="+91" data-placeholder="99870 31290" selected>🇮🇳 +91 (IN)</option>
+                                <option value="+1" data-placeholder="(555) 019-2834">🇺🇸 +1 (US)</option>
+                                <option value="+44" data-placeholder="7911 123456">🇬🇧 +44 (UK)</option>
+                                <option value="+971" data-placeholder="50 123 4567">🇦🇪 +971 (AE)</option>
+                                <option value="+65" data-placeholder="8123 4567">🇸🇬 +65 (SG)</option>
+                                <option value="+61" data-placeholder="412 345 678">🇦🇺 +61 (AU)</option>
+                                <option value="+49" data-placeholder="151 23456789">🇩🇪 +49 (DE)</option>
+                                <option value="+33" data-placeholder="6 12 34 56 78">🇫🇷 +33 (FR)</option>
+                                <option value="+81" data-placeholder="90-1234-5678">🇯🇵 +81 (JP)</option>
+                                <option value="+41" data-placeholder="78 123 45 67">🇨🇭 +41 (CH)</option>
+                                <option value="+966" data-placeholder="50 123 4567">🇸🇦 +966 (SA)</option>
+                                <option value="+974" data-placeholder="3312 3456">🇶🇦 +974 (QA)</option>
+                                <option value="+965" data-placeholder="9123 4567">🇰🇼 +965 (KW)</option>
+                                <option value="+60" data-placeholder="12-345 6789">🇲🇾 +60 (MY)</option>
+                                <option value="+852" data-placeholder="9123 4567">🇭🇰 +852 (HK)</option>
+                                <option value="+31" data-placeholder="6 12345678">🇳🇱 +31 (NL)</option>
+                                <option value="+46" data-placeholder="70-123 45 67">🇸🇪 +46 (SE)</option>
+                                <option value="+353" data-placeholder="85 123 4567">🇮🇪 +353 (IE)</option>
+                                <option value="+64" data-placeholder="21 123 4567">🇳🇿 +64 (NZ)</option>
+                                <option value="+55" data-placeholder="(11) 91234-5678">🇧🇷 +55 (BR)</option>
+                                <option value="+27" data-placeholder="71 123 4567">🇿🇦 +27 (ZA)</option>
+                                <option value="other" data-placeholder="+Country & Number">🌐 Other</option>
+                            </select>
+                            <input type="tel" id="clientPhone" name="phone_number" class="ct-field-input ct-phone-input"
+                                placeholder="99870 31290" autocomplete="tel-national" maxlength="20" required
+                                aria-describedby="phoneError" aria-required="true">
                         </div>
-                        <input type="tel" id="clientPhone" name="phone" class="ct-field-input"
-                            placeholder="e.g. +91 99870 31290 or +1 415 555 0192" autocomplete="tel" maxlength="24"
-                            aria-describedby="phoneError">
+                        <input type="hidden" name="phone" id="fullPhone">
                         <div class="ct-field-error" id="phoneError" role="alert"></div>
                     </div>
 
@@ -965,6 +1038,8 @@
             const phoneInput = document.getElementById('clientPhone');
             const phoneGroup = document.getElementById('fieldPhoneGroup');
             const phoneError = document.getElementById('phoneError');
+            const countryCodeSelect = document.getElementById('countryCode');
+            const fullPhoneInput = document.getElementById('fullPhone');
 
             const emailInput = document.getElementById('clientEmail');
             const emailGroup = document.getElementById('fieldEmailGroup');
@@ -978,6 +1053,20 @@
             const submitBtn = document.getElementById('submitBtn');
             const submitBtnText = document.getElementById('submitBtnText');
             const submitBtnIcon = document.getElementById('submitBtnIcon');
+
+            // ── Dynamic Country Code & Placeholder ──
+            if (countryCodeSelect && phoneInput) {
+                countryCodeSelect.addEventListener('change', () => {
+                    const selectedOpt = countryCodeSelect.options[countryCodeSelect.selectedIndex];
+                    const ph = selectedOpt.getAttribute('data-placeholder');
+                    if (ph) {
+                        phoneInput.placeholder = ph;
+                    }
+                    if (phoneGroup.classList.contains('has-error')) {
+                        updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), true);
+                    }
+                });
+            }
 
             // ── Validation Rules ──
             function validateName(val) {
@@ -996,11 +1085,20 @@
 
             function validatePhone(val) {
                 const trimmed = val.trim();
-                if (!trimmed) return ''; // Optional
+                if (!trimmed) return 'Please enter your phone number.';
                 const digits = trimmed.replace(/\D/g, '');
-                const validChars = /^[+]?[0-9\s().-]{7,24}$/.test(trimmed);
-                if (!validChars || digits.length < 7 || digits.length > 15) {
-                    return 'Please enter a valid phone number (7–15 digits, e.g. +91 99870 31290).';
+                const isOther = countryCodeSelect && countryCodeSelect.value === 'other';
+
+                if (isOther) {
+                    const validChars = /^[+]?[0-9\s().-]{7,24}$/.test(trimmed);
+                    if (!validChars || digits.length < 7 || digits.length > 15) {
+                        return 'Please enter a valid international phone number with country code (e.g. +358 40 1234567).';
+                    }
+                } else {
+                    const validChars = /^[0-9\s().-]{6,20}$/.test(trimmed);
+                    if (!validChars || digits.length < 6 || digits.length > 14) {
+                        return 'Please enter a valid phone number (at least 6–10 digits).';
+                    }
                 }
                 return '';
             }
@@ -1084,13 +1182,13 @@
                 }
             });
 
-            // Phone (Optional)
+            // Phone
             phoneInput.addEventListener('blur', () => {
-                updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), false);
+                updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), true);
             });
             phoneInput.addEventListener('input', () => {
                 if (phoneGroup.classList.contains('has-error')) {
-                    updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), false);
+                    updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), true);
                 }
             });
 
@@ -1123,7 +1221,7 @@
                 e.preventDefault();
 
                 const isNameValid = updateFieldUI(nameGroup, nameError, nameInput, validateName(nameInput.value), true);
-                const isPhoneValid = updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), false);
+                const isPhoneValid = updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), true);
                 const isEmailValid = updateFieldUI(emailGroup, emailError, emailInput, validateEmail(emailInput.value), true);
                 const isBriefValid = updateFieldUI(briefGroup, briefError, briefInput, validateBrief(briefInput.value), true);
 
@@ -1145,6 +1243,12 @@
                         first.input.scrollIntoView({ behavior: 'smooth', block: 'center' });
                     }
                     return false;
+                }
+
+                // Format combined international phone for email delivery
+                if (fullPhoneInput && countryCodeSelect && phoneInput) {
+                    const cCode = countryCodeSelect.value === 'other' ? '' : (countryCodeSelect.value + ' ');
+                    fullPhoneInput.value = `${cCode}${phoneInput.value.trim()}`;
                 }
 
                 // Everything valid: Dispatch submission
