@@ -6,10 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#101010">
 
-    <title>Contact & Project Discovery — LuxeStudio Creative Technology</title>
+    <!-- Primary SEO & GEO Meta Tags -->
+    <title>Contact &amp; Project Discovery — LuxeStudio Creative Technology</title>
+    <meta name="title" content="Contact &amp; Project Discovery — LuxeStudio Creative Technology">
     <meta name="description"
-        content="Have something worth building? Start a conversation, book a 30-minute discovery call, or send your brief directly to LuxeStudio.">
+        content="Have something worth building? Start a conversation, book a 30-minute discovery call, or send your brief directly to LuxeStudio. Response within 24 hours.">
+    <meta name="keywords"
+        content="contact LuxeStudio, project discovery call, hire web developers, custom website design agency, web development Mumbai, web agency Australia, UI UX design consultation">
+    <meta name="author" content="LuxeStudio Creative Technology">
+    <meta name="application-name" content="LuxeStudio">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://theluxestudio.in/contact.html">
+
+    <!-- Open Graph / Social Embeds -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LuxeStudio">
+    <meta property="og:url" content="https://theluxestudio.in/contact.html">
+    <meta property="og:title" content="Contact &amp; Project Discovery — LuxeStudio Creative Technology">
+    <meta property="og:description"
+        content="Have something worth building? Start a conversation, book a 30-minute discovery call, or send your brief directly to LuxeStudio.">
+    <meta property="og:image" content="https://theluxestudio.in/assets/projects/atelier-one.jpg">
+    <meta property="og:image:alt" content="LuxeStudio Creative Technology Project Discovery">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@luxestudio">
+    <meta name="twitter:creator" content="@luxestudio">
+    <meta name="twitter:title" content="Contact &amp; Project Discovery — LuxeStudio Creative Technology">
+    <meta name="twitter:description"
+        content="Have something worth building? Start a conversation, book a 30-minute discovery call, or send your brief directly to LuxeStudio.">
+    <meta name="twitter:image" content="https://theluxestudio.in/assets/projects/atelier-one.jpg">
+
+    <!-- Favicon & PWA Icons -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Schema.org ContactPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://theluxestudio.in/contact.html#webpage",
+      "url": "https://theluxestudio.in/contact.html",
+      "name": "Contact & Project Discovery — LuxeStudio",
+      "description": "Start a conversation, book a 30-minute discovery call, or send your brief directly to LuxeStudio.",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "LuxeStudio",
+        "url": "https://theluxestudio.in/",
+        "email": "hello@theluxestudio.in",
+        "telephone": ["+919987031290", "+61422974003"]
+      }
+    }
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -319,6 +372,16 @@
             color: #111111;
             text-decoration: none;
             transition: color 0.2s;
+        }
+
+        button.ct-channel-link {
+            background: none;
+            border: none;
+            font-family: inherit;
+            cursor: pointer;
+            padding: 0;
+            text-align: left;
+            line-height: inherit;
         }
 
         .ct-channel-link:hover {
@@ -799,7 +862,7 @@
 
                     <!-- WhatsApp (India & Global) -->
                     <div class="ct-channel-card">
-                        <span class="ct-channel-tag">WhatsApp Priority &middot; India & Global</span>
+                        <span class="ct-channel-tag">India & Global &middot; WhatsApp Priority</span>
                         <div class="ct-channel-row">
                             <a href="https://wa.me/919987031290" target="_blank" rel="noopener noreferrer"
                                 class="ct-channel-link magnetic" aria-label="Message on WhatsApp (India & Global)">
@@ -811,16 +874,14 @@
 
                     <!-- Australia Contact -->
                     <div class="ct-channel-card">
-                        <span class="ct-channel-tag">Australian Clients &middot; Call / WhatsApp</span>
+                        <span class="ct-channel-tag">Australia</span>
                         <div class="ct-channel-row">
-                            <a href="https://wa.me/61422974003" target="_blank" rel="noopener noreferrer"
-                                class="ct-channel-link magnetic" aria-label="Message on WhatsApp (Australia)">
+                            <button type="button" class="ct-channel-link magnetic js-australia-contact"
+                                data-contact-action="australia" aria-haspopup="dialog"
+                                aria-label="Connect with LuxeStudio Australia — Choose Call or WhatsApp">
                                 +61 0422 974 003
-                            </a>
-                            <div style="display:inline-flex; align-items:center; gap:8px;">
-                                <a href="tel:+61422974003" class="ct-copy-btn magnetic" style="display:inline-flex; align-items:center; text-decoration:none;" aria-label="Call Australian phone number">Call</a>
-                                <span class="ct-channel-arr" aria-hidden="true">&nearr;</span>
-                            </div>
+                            </button>
+                            <span class="ct-channel-arr js-australia-contact" data-contact-action="australia" aria-hidden="true" style="cursor:pointer;">&nearr;</span>
                         </div>
                     </div>
 

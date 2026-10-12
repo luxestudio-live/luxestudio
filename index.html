@@ -56,6 +56,13 @@
     <link rel="alternate" type="text/plain" href="https://theluxestudio.in/llms-full.txt"
         title="Comprehensive LLM Knowledge Base">
 
+    <!-- Favicon & PWA Icons -->
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <!-- JSON-LD Comprehensive Knowledge Graph (Schema.org) for Google & Generative AI Engines -->
     <script type="application/ld+json">
     {
@@ -404,8 +411,8 @@
                 <a href="https://wa.me/919987031290" target="_blank" rel="noopener noreferrer"
                     class="mobile-contact-link">+91 9987031290</a>
                 <span class="mmc-sep" aria-hidden="true">&bull;</span>
-                <a href="https://wa.me/61422974003" target="_blank" rel="noopener noreferrer"
-                    class="mobile-contact-link">+61 0422 974 003 (AU)</a>
+                <button type="button" class="mobile-contact-link js-australia-contact"
+                    data-contact-action="australia" style="background:none;border:none;color:inherit;font:inherit;cursor:pointer;padding:0;">+61 0422 974 003 (AU)</button>
             </div>
 
             <div class="mobile-menu-legal">
@@ -1748,13 +1755,14 @@
                 </div>
 
                 <div class="direct-channel direct-australia">
-                    <span class="direct-tag">AUSTRALIA (DIRECT & WHATSAPP)</span>
+                    <span class="direct-tag">AUSTRALIA</span>
                     <div class="direct-link-wrap">
-                        <a href="https://wa.me/61422974003" target="_blank" rel="noopener noreferrer"
-                            class="direct-link direct-link-wa magnetic" aria-label="Contact LuxeStudio for Australian clients on WhatsApp">
+                        <button type="button" class="direct-link direct-link-wa magnetic js-australia-contact"
+                            data-contact-action="australia" aria-haspopup="dialog"
+                            aria-label="Connect with LuxeStudio Australia — Choose Call or WhatsApp">
                             <span>+61 0422 974 003</span>
                             <span class="direct-arrow" aria-hidden="true">&nearr;</span>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
