@@ -187,7 +187,8 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 ## 📬 Contact & Inquiries
 
 - **Direct Inquiries**: [hello@theluxestudio.in](mailto:hello@theluxestudio.in)
-- **WhatsApp**: [+91 99870 31290](https://wa.me/919987031290)
+- **WhatsApp (India & Global)**: [+91 99870 31290](https://wa.me/919987031290)
+- **Direct / WhatsApp (Australia)**: [+61 0422 974 003](https://wa.me/61422974003)
 - **GitHub**: [github.com/luxestudio-live](https://github.com/luxestudio-live)
 - **Live Studio**: [https://theluxestudio.in](https://theluxestudio.in)
 

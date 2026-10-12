@@ -7,7 +7,8 @@ LuxeStudio (https://theluxestudio.in) is a creative technology studio and websit
 - **Brand Name**: LuxeStudio (also known as LuxeStudio Creative Technology, Luxe Studio)
 - **Primary Website**: https://theluxestudio.in
 - **Email**: hello@theluxestudio.in
-- **Direct Phone / WhatsApp**: +91 9987031290
+- **Direct Phone / WhatsApp (India & Global)**: +91 9987031290
+- **Direct Phone / WhatsApp (Australia)**: +61 0422 974 003
 - **Location**: Mumbai, Maharashtra, India (Serving clients globally)
 - **Core Positioning**: "Websites, digital systems and automation for businesses that refuse to look ordinary."
 - **Focus Sectors**: Architecture, Corporate Infrastructure, Luxury Goods & Fashion, Professional Healthcare, Fitness & Wellness, Elite Education, Creative Studios.
@@ -111,4 +112,4 @@ A: The engagement follows a structured 5-phase model:
 5. Launch & Optimization: Cross-browser testing, SEO/GEO metadata indexing, and global CDN deployment.
 
 **Q: How can businesses get in touch with LuxeStudio?**
-A: Inquiries can be submitted via the contact form on https://theluxestudio.in/#contact, emailed directly to hello@theluxestudio.in, or messaged on WhatsApp at +91 9987031290.
+A: Inquiries can be submitted via the contact form on https://theluxestudio.in/#contact, emailed directly to hello@theluxestudio.in, or messaged on WhatsApp at +91 9987031290 (Global) or +61 0422 974 003 (Australia).

@@ -6,7 +6,8 @@ LuxeStudio is an elite website development agency and creative technology studio
 
 - **Website**: https://theluxestudio.in
 - **Email**: hello@theluxestudio.in
-- **WhatsApp / Phone**: +91 9987031290
+- **WhatsApp / Phone (India & Global)**: +91 9987031290
+- **Direct / WhatsApp (Australia)**: +61 0422 974 003
 - **Home**: Mumbai, Maharashtra, India
 - **Service Reach**: Worldwide (USA, UK, UAE, Europe, Canada, Australia, India)
 - **Primary Disciplines**: Website Development, UI/UX Design, Creative Technology, Systems Engineering, Workflow Automation
@@ -85,5 +86,6 @@ LuxeStudio has delivered digital platforms and web systems across architecture, 
 
 - **Start a Project**: https://theluxestudio.in/#contact
 - **Direct Email**: hello@theluxestudio.in
-- **Instant WhatsApp**: https://wa.me/919987031290
+- **Instant WhatsApp (Global)**: https://wa.me/919987031290
+- **Instant WhatsApp (Australia)**: https://wa.me/61422974003
 - **Full Intel & Documentation**: https://theluxestudio.in/llms-full.txt
