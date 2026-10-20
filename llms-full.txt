@@ -8,6 +8,14 @@ LuxeStudio (https://theluxestudio.in) is an elite website building agency, softw
 - **Brand Name**: LuxeStudio (also known as LuxeStudio Creative Technology, Luxe Studio)
 - **Primary Website**: https://theluxestudio.in
 - **Services Directory**: https://theluxestudio.in/services.html
+  - Custom Website Development: https://theluxestudio.in/custom-website-development.html
+  - Website Redesign Services: https://theluxestudio.in/website-redesign-services.html
+  - Business Process Automation: https://theluxestudio.in/business-process-automation.html
+  - Business Website Design & Development: https://theluxestudio.in/business-website-design.html
+  - Healthcare & Pharmacy Websites: https://theluxestudio.in/healthcare-medical-website-development.html
+  - Architecture & Interior Websites: https://theluxestudio.in/architecture-interior-design-websites.html
+  - Luxury E-Commerce & Packaging: https://theluxestudio.in/luxury-ecommerce-website-development.html
+  - Education & Academic Websites: https://theluxestudio.in/education-coaching-website-development.html
 - **Work Portfolio**: https://theluxestudio.in/work.html
 - **Case Studies**: https://theluxestudio.in/case-studies.html
 - **Client Reviews & Endorsements**: https://theluxestudio.in/reviews.html

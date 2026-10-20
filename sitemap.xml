@@ -69,6 +69,58 @@
         <priority>0.90</priority>
     </url>
 
+    <!-- Dedicated Service Landing Pages (High-Intent Keywords) -->
+    <url>
+        <loc>https://theluxestudio.in/custom-website-development.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://theluxestudio.in/website-redesign-services.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://theluxestudio.in/business-process-automation.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://theluxestudio.in/business-website-design.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- Dedicated Industry Vertical Landing Pages -->
+    <url>
+        <loc>https://theluxestudio.in/healthcare-medical-website-development.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://theluxestudio.in/architecture-interior-design-websites.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://theluxestudio.in/luxury-ecommerce-website-development.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://theluxestudio.in/education-coaching-website-development.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
     <!-- Studio & Engineering Manifesto -->
     <url>
         <loc>https://theluxestudio.in/studio.html</loc>
