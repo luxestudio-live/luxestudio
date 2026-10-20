@@ -73,6 +73,9 @@ LuxeStudio has delivered bespoke website building and digital systems across arc
 11. **R3 Studio** — https://luxestudio-live.github.io/r3-studio/pages/homepage.html
     *Discipline*: Architecture & Interior Design Studio. Spatial narratives, 3D renderings, and project case studies.
 
+12. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
+    *Discipline*: Community Healthcare & Clinical Dispensary (Surrey Hills, Melbourne VIC). Electronic prescriptions (eScripts), MedsCheck consults, Webster-pak® medication management, and NDSS diabetes care.
+
 ---
 
 ## Why Ambitious Businesses Choose LuxeStudio

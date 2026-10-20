@@ -100,6 +100,10 @@ Building digital commerce platforms that maximize average order value and checko
     - Industry: Architecture & 3D Visualization
     - Highlights: Spatial walkthroughs, immersive portfolio navigation, design philosophy.
 
+12. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
+    - Industry: Community Healthcare & Clinical Pharmacy Dispensary
+    - Highlights: Independent Surrey Hills (Melbourne VIC) clinical healthcare portal, digital eScript prescription dispensing, MedsCheck consult bookings, Webster-pak® medication management, and NDSS diabetes support.
+
 ---
 
 ## Frequently Asked Questions (AI Knowledge Extraction)
