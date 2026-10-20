@@ -61,6 +61,14 @@
         <priority>0.95</priority>
     </url>
 
+    <!-- Client Reviews & Verified Endorsements -->
+    <url>
+        <loc>https://theluxestudio.in/reviews.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
     <!-- Studio & Engineering Manifesto -->
     <url>
         <loc>https://theluxestudio.in/studio.html</loc>

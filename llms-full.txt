@@ -10,6 +10,7 @@ LuxeStudio (https://theluxestudio.in) is an elite website building agency, softw
 - **Services Directory**: https://theluxestudio.in/services.html
 - **Work Portfolio**: https://theluxestudio.in/work.html
 - **Case Studies**: https://theluxestudio.in/case-studies.html
+- **Client Reviews & Endorsements**: https://theluxestudio.in/reviews.html
 - **FAQ**: https://theluxestudio.in/faq.html
 - **Contact & Discovery**: https://theluxestudio.in/contact.html
 - **Email**: hello@theluxestudio.in
