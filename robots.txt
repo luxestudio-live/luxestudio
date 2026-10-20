@@ -4,14 +4,28 @@
 
 User-agent: *
 Allow: /
+# Explicitly allow critical rendering resources for Google and search engines
+Allow: /css/
+Allow: /js/
+Allow: /assets/
 Disallow: /scratch/
 
-# Primary Search Engine Crawlers
+# Primary Search Engine Crawlers & Render Engines
 User-agent: Googlebot
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+User-agent: Googlebot-Image
+Allow: /assets/
 Allow: /
 
 User-agent: Bingbot
 Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /assets/
 
 User-agent: Slurp
 Allow: /
