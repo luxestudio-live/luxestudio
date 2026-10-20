@@ -3,63 +3,76 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     
-    <!-- Homepage / Primary Hub -->
+    <!-- Homepage / Primary Hub — Website Building & Automation Agency -->
     <url>
         <loc>https://theluxestudio.in/</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
             <image:loc>https://theluxestudio.in/assets/projects/atelier-one.jpg</image:loc>
-            <image:title>LuxeStudio Creative Technology &amp; Website Development</image:title>
-            <image:caption>LuxeStudio — Bespoke websites, digital systems and automation.</image:caption>
+            <image:title>LuxeStudio Bespoke Website Building &amp; Business Automation</image:title>
+            <image:caption>LuxeStudio — High-performance bespoke website building, web systems, and intelligent business automation.</image:caption>
         </image:image>
     </url>
 
-    <!-- Dedicated Works Archive -->
-    <url>
-        <loc>https://theluxestudio.in/work.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.95</priority>
-    </url>
-
-    <!-- Case Studies & Deep Dives -->
-    <url>
-        <loc>https://theluxestudio.in/case-studies.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.95</priority>
-    </url>
-
-    <!-- Services & Engineering Capabilities -->
+    <!-- Services & Engineering Capabilities — Website Building & Automation -->
     <url>
         <loc>https://theluxestudio.in/services.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/atelier-one.jpg</image:loc>
+            <image:title>Website Building &amp; Workflow Automation Services</image:title>
+            <image:caption>End-to-end bespoke website building, modern frontend architecture, and back-office automation.</image:caption>
+        </image:image>
     </url>
 
-    <!-- Studio & Manifesto -->
+    <!-- Dedicated Works Archive / Website Building Portfolio -->
     <url>
-        <loc>https://theluxestudio.in/studio.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
+        <loc>https://theluxestudio.in/work.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+
+    <!-- Case Studies & Automation Deep Dives -->
+    <url>
+        <loc>https://theluxestudio.in/case-studies.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+
+    <!-- Frequently Asked Questions — Website Building & Automation FAQs -->
+    <url>
+        <loc>https://theluxestudio.in/faq.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
     </url>
 
     <!-- Contact & Discovery Studio -->
     <url>
         <loc>https://theluxestudio.in/contact.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
+        <priority>0.95</priority>
+    </url>
+
+    <!-- Studio & Engineering Manifesto -->
+    <url>
+        <loc>https://theluxestudio.in/studio.html</loc>
+        <lastmod>2026-10-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
     </url>
 
     <!-- Terms of Engagement -->
     <url>
         <loc>https://theluxestudio.in/terms.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -67,7 +80,7 @@
     <!-- Privacy & Data Ethics -->
     <url>
         <loc>https://theluxestudio.in/privacy.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -75,7 +88,7 @@
     <!-- Cookie & Telemetry Protocols -->
     <url>
         <loc>https://theluxestudio.in/cookies.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -83,7 +96,7 @@
     <!-- Universal Accessibility -->
     <url>
         <loc>https://theluxestudio.in/accessibility.html</loc>
-        <lastmod>2026-09-09</lastmod>
+        <lastmod>2026-10-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>

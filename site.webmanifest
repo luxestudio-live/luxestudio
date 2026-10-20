@@ -1,11 +1,18 @@
 {
-  "name": "LuxeStudio Creative Technology",
+  "name": "LuxeStudio — Website Building & Business Automation",
   "short_name": "LuxeStudio",
-  "description": "Bespoke websites, digital systems, and automation for businesses that refuse to look ordinary.",
+  "description": "Bespoke website building, high-performance web systems, and intelligent business automation for ambitious brands.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0C0C0C",
   "theme_color": "#101010",
+  "categories": [
+    "business",
+    "productivity",
+    "utilities",
+    "design",
+    "development"
+  ],
   "icons": [
     {
       "src": "/assets/favicon.svg",

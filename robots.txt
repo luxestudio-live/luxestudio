@@ -1,11 +1,31 @@
 # LuxeStudio — robots.txt
 # https://theluxestudio.in
+# Bespoke Website Building & Business Automation Agency
 
 User-agent: *
 Allow: /
 Disallow: /scratch/
 
-# AI Search Engines & LLM Crawlers (Generative Engine Optimization)
+# Primary Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Generative AI & LLM Search Crawlers (Generative Engine Optimization - GEO)
 User-agent: GPTBot
 Allow: /
 
@@ -27,6 +47,9 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
 
@@ -36,8 +59,12 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# Sitemaps & LLM Context Files
+User-agent: meta-externalagent
+Allow: /
+
+# Sitemaps
 Sitemap: https://theluxestudio.in/sitemap.xml
-# LLM Knowledge Briefs
+
+# LLM Knowledge Briefs for Generative Engines
 # https://theluxestudio.in/llms.txt
 # https://theluxestudio.in/llms-full.txt
