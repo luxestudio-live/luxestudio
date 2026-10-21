@@ -31,12 +31,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 1. Initialize Motion Engine
-    if (typeof initMotionEngine === 'function') {
-        initMotionEngine();
+    try {
+        if (typeof initMotionEngine === 'function') {
+            initMotionEngine();
+        }
+    } catch (e) {
+        console.warn('Motion engine initialization warning:', e);
     }
 
     // 2. Preloader Animation
-    initPreloader();
+    try {
+        initPreloader();
+    } catch (e) {
+        console.warn('Preloader initialization warning:', e);
+        document.documentElement.classList.remove('is-loading');
+        document.body.classList.add('loaded');
+        const ldr = document.getElementById('loader');
+        if (ldr) ldr.style.display = 'none';
+    }
 
     // 3. Global Studio Live Time
     initGlobalClock();
