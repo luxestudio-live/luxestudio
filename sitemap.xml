@@ -6,7 +6,7 @@
     <!-- Homepage / Primary Hub — Website Building & Automation Agency -->
     <url>
         <loc>https://theluxestudio.in/</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -19,7 +19,7 @@
     <!-- Services & Engineering Capabilities — Website Building & Automation -->
     <url>
         <loc>https://theluxestudio.in/services.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
         <image:image>
@@ -32,23 +32,33 @@
     <!-- Dedicated Works Archive / Website Building Portfolio -->
     <url>
         <loc>https://theluxestudio.in/work.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/auri-concept.jpg</image:loc>
+            <image:title>LuxeStudio Selected Works Archive</image:title>
+            <image:caption>Curated flagship web builds, e-commerce storefronts, and automated web systems.</image:caption>
+        </image:image>
     </url>
 
     <!-- Case Studies & Automation Deep Dives -->
     <url>
         <loc>https://theluxestudio.in/case-studies.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/luxxe-labels.jpg</image:loc>
+            <image:title>LuxeStudio Technical Case Studies</image:title>
+            <image:caption>Engineering breakdowns, conversion architectures, and business automation outcomes.</image:caption>
+        </image:image>
     </url>
 
     <!-- Frequently Asked Questions — Website Building & Automation FAQs -->
     <url>
         <loc>https://theluxestudio.in/faq.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
     </url>
@@ -56,7 +66,7 @@
     <!-- Contact & Discovery Studio -->
     <url>
         <loc>https://theluxestudio.in/contact.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.95</priority>
     </url>
@@ -64,7 +74,7 @@
     <!-- Client Reviews & Verified Endorsements -->
     <url>
         <loc>https://theluxestudio.in/reviews.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
     </url>
@@ -72,67 +82,112 @@
     <!-- Dedicated Service Landing Pages (High-Intent Keywords) -->
     <url>
         <loc>https://theluxestudio.in/custom-website-development.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/atelier-one.jpg</image:loc>
+            <image:title>Custom Website Development Agency</image:title>
+            <image:caption>First-principles web development, bespoke frontend engineering, and clean semantic architecture.</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://theluxestudio.in/website-redesign-services.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/cory-ryan.jpg</image:loc>
+            <image:title>Modern Website Redesign Services</image:title>
+            <image:caption>Transform legacy sites into high-converting, sub-second web flagships.</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://theluxestudio.in/business-process-automation.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/luxxe-labels.jpg</image:loc>
+            <image:title>Business Process Automation Services</image:title>
+            <image:caption>Connecting web touchpoints with CRM pipelines, WhatsApp API, and automated workflows.</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://theluxestudio.in/business-website-design.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/virats-buildtech.jpg</image:loc>
+            <image:title>Business Website Design &amp; Development</image:title>
+            <image:caption>Bespoke commercial websites engineered for brand authority and lead generation.</image:caption>
+        </image:image>
     </url>
 
     <!-- Dedicated Industry Vertical Landing Pages -->
     <url>
         <loc>https://theluxestudio.in/healthcare-medical-website-development.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/wellstead-pharmacy.jpg</image:loc>
+            <image:title>Healthcare &amp; Medical Website Development</image:title>
+            <image:caption>Secure patient portals, appointment systems, and pharmacy dispensary platforms.</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://theluxestudio.in/architecture-interior-design-websites.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/auri-concept.jpg</image:loc>
+            <image:title>Architecture &amp; Interior Design Websites</image:title>
+            <image:caption>Editorial spatial portfolios, high-resolution imagery, and catalog showcases.</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://theluxestudio.in/luxury-ecommerce-website-development.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/luxxe-labels.jpg</image:loc>
+            <image:title>Luxury E-Commerce Website Development</image:title>
+            <image:caption>Bespoke high-end fashion storefronts, instant filtering, and VIP concierge integration.</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://theluxestudio.in/education-coaching-website-development.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/gravity-tutorials.jpg</image:loc>
+            <image:title>Education &amp; Coaching Website Development</image:title>
+            <image:caption>Academic institute websites, course catalogs, and admission inquiry pipelines.</image:caption>
+        </image:image>
     </url>
 
     <!-- Studio & Engineering Manifesto -->
     <url>
         <loc>https://theluxestudio.in/studio.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://theluxestudio.in/assets/projects/atelier-one.jpg</image:loc>
+            <image:title>LuxeStudio Manifesto &amp; Engineering Ethos</image:title>
+            <image:caption>First-principles creative technology, performance obsession, and automation discipline.</image:caption>
+        </image:image>
     </url>
 
     <!-- Terms of Engagement -->
     <url>
         <loc>https://theluxestudio.in/terms.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -140,7 +195,7 @@
     <!-- Privacy & Data Ethics -->
     <url>
         <loc>https://theluxestudio.in/privacy.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -148,7 +203,7 @@
     <!-- Cookie & Telemetry Protocols -->
     <url>
         <loc>https://theluxestudio.in/cookies.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -156,7 +211,7 @@
     <!-- Universal Accessibility -->
     <url>
         <loc>https://theluxestudio.in/accessibility.html</loc>
-        <lastmod>2026-10-20</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
