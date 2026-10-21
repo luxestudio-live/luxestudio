@@ -881,12 +881,53 @@ body:not(.theme-dark) .faq-content p {
     background: transparent;
     color: var(--ink);
     border: 1px solid var(--line-strong);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .btn-live-site:hover {
     border-color: var(--ink);
     background: rgba(17, 17, 17, 0.05);
     transform: translateY(-2px);
+}
+
+.btn-live-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #087f4c;
+    display: inline-block;
+    box-shadow: 0 0 8px rgba(8, 127, 76, 0.7);
+    flex-shrink: 0;
+}
+
+.btn-prototype-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: rgba(255, 69, 34, 0.08);
+    color: var(--accent);
+    border: 1px solid rgba(255, 69, 34, 0.25);
+    cursor: default;
+    user-select: none;
+}
+
+.btn-prototype-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
+    box-shadow: 0 0 8px rgba(255, 69, 34, 0.7);
+    flex-shrink: 0;
 }
 
 /* Case Study Deep-Dive Layout */
