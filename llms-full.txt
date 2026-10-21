@@ -78,8 +78,8 @@ Building digital commerce platforms that maximize average order value and checko
    - Highlights: Austin, Texas editorial photography brand, masonry gallery grids, fluid aesthetic storytelling.
 
 4. **Luxxe Labels** — https://www.luxelabels.co.in/
-   - Industry: Packaging & Label Manufacturing
-   - Highlights: Product sample showcases, B2B wholesale inquiry forms, material finish showcases.
+   - Industry: Luxury Fashion & Designer Apparel E-Commerce
+   - Highlights: High-aesthetic editorial lookbook presentation, Next.js headless storefront, animated slide-out micro-cart, and VIP WhatsApp styling automation.
 
 5. **Vedant Hospital** — https://luxestudio-live.github.io/vedant-hospital/
    - Industry: Multi-Specialty Healthcare

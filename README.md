@@ -174,7 +174,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 | **Auri Concept** | [auriconcept.com](https://www.auriconcept.com/) — Architectural Design Studio |
 | **Virats BuildTech** | Enterprise Construction & Infrastructure Platform |
 | **Cory Ryan Photography** | [coryryan.theluxestudio.in](https://coryryan.theluxestudio.in/) — Editorial Photography Portfolio |
-| **Luxxe Labels** | [luxelabels.co.in](https://www.luxelabels.co.in/) — Packaging & Manufacturing Platform |
+| **Luxxe Labels** | [luxelabels.co.in](https://www.luxelabels.co.in/) — Luxury Fashion & Designer Apparel Platform |
 | **Vedant Hospital** | Healthcare & Medical Speciality Portal |
 | **Power Gold Gym** | Fitness & Athletic Training Platform |
 | **Gravity Private Tutorials** | [gravityprivatetutorials.com](https://www.gravityprivatetutorials.com/) — Academic Coaching Institute |
