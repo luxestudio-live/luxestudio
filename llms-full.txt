@@ -66,12 +66,12 @@ Building digital commerce platforms that maximize average order value and checko
 ## Agency Portfolio & Verified Live Works
 
 1. **Auri Concept** — https://www.auriconcept.com/
-   - Industry: Architecture & Interior Design
-   - Highlights: Minimalist spatial showcase, full-bleed imagery, refined typographic scale.
+   - Industry: Architectural Lighting & Smart Living
+   - Highlights: Premium architectural lighting profiles, magnetic track systems, smart access solutions, product catalog, video showcases, and instant WhatsApp consultation.
 
 2. **Virats BuildTech** — https://luxestudio-live.github.io/virats-buildtech/
-   - Industry: Construction & Infrastructure Development
-   - Highlights: Corporate engineering authority, project timeline modules, multi-stage project portfolio.
+   - Industry: Construction & Interior Design
+   - Highlights: Corporate platform with interactive 3D globe hero, 120+ completed residential & commercial project milestones, and structured client inquiry pipelines.
 
 3. **Cory Ryan Photography** — https://coryryan.theluxestudio.in/
    - Industry: Luxury Lifestyle & Wedding Photography
@@ -81,35 +81,39 @@ Building digital commerce platforms that maximize average order value and checko
    - Industry: Luxury Fashion & Designer Apparel E-Commerce
    - Highlights: High-aesthetic editorial lookbook presentation, Next.js headless storefront, animated slide-out micro-cart, and VIP WhatsApp styling automation.
 
-5. **Vedant Hospital** — https://luxestudio-live.github.io/vedant-hospital/
-   - Industry: Multi-Specialty Healthcare
-   - Highlights: Department directories, emergency contact rails, doctor scheduling portals.
+5. **The Face Craft Studio** — https://luxestudio-live.github.io/r3-studio/pages/homepage.html
+   - Industry: Professional Photography & Videography Studio Space Rental (Mumbai)
+   - Highlights: Multi-zone studio rental showcases, amenities and backdrops, lighting equipment matrices, and online booking scheduling.
 
 6. **Power Gold Gym** — https://luxestudio-live.github.io/power-gold-gym/
    - Industry: Athletic Fitness & Performance
    - Highlights: High-energy dark mode aesthetic, membership tier selectors, trainer profiles.
 
-7. **Gravity Private Tutorials** — https://www.gravityprivatetutorials.com/
+7. **Vedant Hospital** — https://luxestudio-live.github.io/vedant-hospital/
+   - Industry: Multi-Specialty Healthcare
+   - Highlights: Multi-specialty hospital portal in Bhandup West, Mumbai. Department directories, emergency contact rails, and doctor appointment scheduling.
+
+8. **Gravity Private Tutorials** — https://www.gravityprivatetutorials.com/
    - Industry: Higher Secondary & Competitive Academics
-   - Highlights: Course curriculum selectors, topper testimonials, direct admission inquiry.
+   - Highlights: JEE/NEET/Commerce coaching hub in Kandivali West, Mumbai. Course curriculum selectors, topper testimonials, and direct admission inquiry.
 
-8. **Gurukul Study Center** — https://gurukulstudycenter.in/
+9. **Gurukul Study Center** — https://gurukulstudycenter.in/
    - Industry: Educational Institution
-   - Highlights: Student learning portals, program roadmaps, contact consultation.
+   - Highlights: Mathematics & academic coaching in Mumbai. Student learning portals, program roadmaps, and contact consultation.
 
-9. **Yogi's Yoga** — https://www.yogisyoga.in/
-   - Industry: Health & Mindfulness
-   - Highlights: Serene organic layout, daily schedule calendars, workshop registration.
+10. **Yogi's Yoga** — https://www.yogisyoga.in/
+    - Industry: Health & Mindfulness
+    - Highlights: Serene organic layout, daily schedule calendars, workshop registration.
 
-10. **Kamini Beautician & Makeup Academy** — https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/
+11. **Kamini Beautician & Makeup Academy** — https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/
     - Industry: Aesthetics & Bridal Academy
     - Highlights: Certified diploma course outlines, bridal makeup portfolios, salon service menus.
 
-11. **R3 Studio** — https://luxestudio-live.github.io/r3-studio/pages/homepage.html
-    - Industry: Architecture & 3D Visualization
-    - Highlights: Spatial walkthroughs, immersive portfolio navigation, design philosophy.
+12. **Atelier One**
+    - Industry: Spatial Architecture & WebGL Prototype
+    - Highlights: LuxeStudio internal architectural & spatial concept prototype demonstrating 60fps WebGL canvas interactions and a 99 Lighthouse performance benchmark.
 
-12. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
+13. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
     - Industry: Community Healthcare & Clinical Pharmacy Dispensary
     - Highlights: Independent Surrey Hills (Melbourne VIC) clinical healthcare portal, digital eScript prescription dispensing, MedsCheck consult bookings, Webster-pak® medication management, and NDSS diabetes support.
 

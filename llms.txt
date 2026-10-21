@@ -41,10 +41,10 @@ Full-stack web software, client portals, internal dashboards, and custom e-comme
 LuxeStudio has delivered bespoke website building and digital systems across architecture, construction, luxury lifestyle, healthcare, fitness, and education:
 
 1. **Auri Concept** — https://www.auriconcept.com/
-   *Discipline*: Bespoke Architectural Design Studio Website. High-aesthetic portfolio and spatial project showcase.
+   *Discipline*: Architectural Lighting & Smart Living Platform (Sion, Mumbai). Product catalog, magnetic track profiles, smart access systems, and WhatsApp consultation.
 
 2. **Virats BuildTech** — https://luxestudio-live.github.io/virats-buildtech/
-   *Discipline*: Enterprise Construction & Infrastructure Platform. Corporate capabilities, project milestones, and tenders.
+   *Discipline*: Construction & Interior Design Platform. 10+ years experience, 120+ delivered project milestones, interactive 3D globe hero, and structured consultation inquiries.
 
 3. **Cory Ryan Photography** — https://coryryan.theluxestudio.in/
    *Discipline*: Editorial Photography Studio. Austin, Texas wedding & lifestyle photography portfolio with rich visual galleries.
@@ -52,28 +52,31 @@ LuxeStudio has delivered bespoke website building and digital systems across arc
 4. **Luxxe Labels** — https://www.luxelabels.co.in/
    *Discipline*: Luxury Fashion & Designer Apparel E-Commerce Platform. High-aesthetic editorial lookbooks, fluid collection browsing, slide-out micro-cart, and automated WhatsApp VIP styling concierge.
 
-5. **Vedant Hospital** — https://luxestudio-live.github.io/vedant-hospital/
-   *Discipline*: Healthcare & Medical Institution Portal. Patient services, specialist directories, and appointment inquiry.
+5. **The Face Craft Studio** — https://luxestudio-live.github.io/r3-studio/pages/homepage.html
+   *Discipline*: Professional Photography & Videography Studio Space Rental (Mumbai). Creative studio space booking, equipment matrix, lighting backdrops, and shoot scheduling.
 
 6. **Power Gold Gym** — https://luxestudio-live.github.io/power-gold-gym/
    *Discipline*: Fitness & Athletic Training Platform. Membership tiers, personal trainer booking, and facility tours.
 
-7. **Gravity Private Tutorials** — https://www.gravityprivatetutorials.com/
-   *Discipline*: Premier Academic Coaching Institute. Course catalog, faculty profiles, and student enrollment portal.
+7. **Vedant Hospital** — https://luxestudio-live.github.io/vedant-hospital/
+   *Discipline*: Multi-Specialty Hospital Portal (Bhandup West, Mumbai). Patient care navigation, specialist directory, and online OPD appointment booking.
 
-8. **Gurukul Study Center** — https://gurukulstudycenter.in/
-   *Discipline*: Educational Learning Center. Curriculum directory, academic counseling, and admissions interface.
+8. **Gravity Private Tutorials** — https://www.gravityprivatetutorials.com/
+   *Discipline*: Premier Academic Coaching Institute (Kandivali West, Mumbai). Course catalog, faculty profiles, and student enrollment portal.
 
-9. **Yogi's Yoga** — https://www.yogisyoga.in/
-   *Discipline*: Wellness & Mindfulness Studio. Class schedules, retreat registrations, and wellness programs.
+9. **Gurukul Study Center** — https://gurukulstudycenter.in/
+   *Discipline*: Educational Learning Center (Mumbai). Mathematics curriculum directory, academic counseling, and admissions interface.
 
-10. **Kamini Beautician & Makeup Academy** — https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/
+10. **Yogi's Yoga** — https://www.yogisyoga.in/
+    *Discipline*: Wellness & Mindfulness Studio. Class schedules, retreat registrations, and wellness programs.
+
+11. **Kamini Beautician & Makeup Academy** — https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/
     *Discipline*: Professional Aesthetics & Bridal Academy. Certified courses, portfolio gallery, and salon bookings.
 
-11. **R3 Studio** — https://luxestudio-live.github.io/r3-studio/pages/homepage.html
-    *Discipline*: Architecture & Interior Design Studio. Spatial narratives, 3D renderings, and project case studies.
+12. **Atelier One**
+    *Discipline*: Spatial Design & WebGL Architecture Prototype. LuxeStudio internal concept demonstrating 60fps interaction and a 99 Lighthouse performance benchmark.
 
-12. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
+13. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
     *Discipline*: Community Healthcare & Clinical Dispensary (Surrey Hills, Melbourne VIC). Electronic prescriptions (eScripts), MedsCheck consults, Webster-pak® medication management, and NDSS diabetes care.
 
 ---

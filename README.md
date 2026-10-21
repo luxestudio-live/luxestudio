@@ -171,16 +171,19 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 | Client / Brand | Domain / Discipline |
 |---|---|
-| **Auri Concept** | [auriconcept.com](https://www.auriconcept.com/) — Architectural Design Studio |
-| **Virats BuildTech** | Enterprise Construction & Infrastructure Platform |
+| **Auri Concept** | [auriconcept.com](https://www.auriconcept.com/) — Architectural Lighting & Smart Living Platform |
+| **Virats BuildTech** | [virats-buildtech](https://luxestudio-live.github.io/virats-buildtech/) — Construction & Interior Design Platform |
 | **Cory Ryan Photography** | [coryryan.theluxestudio.in](https://coryryan.theluxestudio.in/) — Editorial Photography Portfolio |
 | **Luxxe Labels** | [luxelabels.co.in](https://www.luxelabels.co.in/) — Luxury Fashion & Designer Apparel Platform |
-| **Vedant Hospital** | Healthcare & Medical Speciality Portal |
-| **Power Gold Gym** | Fitness & Athletic Training Platform |
-| **Gravity Private Tutorials** | [gravityprivatetutorials.com](https://www.gravityprivatetutorials.com/) — Academic Coaching Institute |
-| **Gurukul Study Center** | [gurukulstudycenter.in](https://gurukulstudycenter.in/) — Educational Learning Center |
-| **Yogi's Yoga** | [yogisyoga.in](https://www.yogisyoga.in/) — Wellness & Mindfulness Studio |
-| **R3 Studio** | Spatial Architecture & Interior Design Studio |
+| **The Face Craft Studio** | [the-face-craft-studio](https://luxestudio-live.github.io/r3-studio/pages/homepage.html) — Photography & Videography Studio Space Rental |
+| **Power Gold Gym** | [power-gold-gym](https://luxestudio-live.github.io/power-gold-gym/) — Athletic Fitness & Performance Platform |
+| **Vedant Hospital** | [vedant-hospital](https://luxestudio-live.github.io/vedant-hospital/) — Multi-Specialty Hospital & Healthcare Portal |
+| **Gravity Private Tutorials** | [gravityprivatetutorials.com](https://www.gravityprivatetutorials.com/) — Academic Coaching Hub |
+| **Gurukul Study Center** | [gurukulstudycenter.in](https://gurukulstudycenter.in/) — Mathematics & Educational Learning Center |
+| **Yogi's Yoga** | [yogisyoga.in](https://www.yogisyoga.in/) — Holistic Yoga & Mindfulness Studio |
+| **Kamini Beauty Academy** | [kamini-beauty](https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/) — Professional Aesthetics & Bridal Academy |
+| **Atelier One** | Concept &middot; Architecture &amp; Spatial WebGL Prototype |
+| **Wellstead Pharmacy** | [wellstead-pharmacy](https://wellstead-pharmacy.theluxestudio.in/) — Community Healthcare &amp; Clinical Dispensary (Melbourne VIC) |
 
 ---
 
