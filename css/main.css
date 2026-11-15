@@ -870,10 +870,8 @@ body.loaded .hero-fixed-cta {
 
 .hl-inner {
     display: block;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-        transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    opacity: 1;
+    transform: translateY(0);
     will-change: transform, opacity;
 }
 
@@ -906,10 +904,8 @@ body.loaded .hl-inner {
     grid-template-rows: 1fr;
     position: relative;
     vertical-align: top;
-    opacity: 0;
-    transform: translateY(16px);
-    transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.18s,
-        transform 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.18s;
+    opacity: 1;
+    transform: translateY(0);
     will-change: transform, opacity;
 }
 
@@ -961,10 +957,8 @@ body.loaded .hero-word-stage {
 .hero-sub {
     margin-top: clamp(24px, 3.5vw, 40px);
     max-width: 480px;
-    opacity: 0;
-    transform: translateY(16px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.48s,
-        transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.48s;
+    opacity: 1;
+    transform: translateY(0);
     will-change: transform, opacity;
 }
 
@@ -996,8 +990,7 @@ body.loaded .hero-sub {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    opacity: 0;
-    transition: opacity 0.9s ease 0.50s;
+    opacity: 1;
     user-select: none;
     pointer-events: none !important;
 }
@@ -1034,14 +1027,13 @@ body.loaded .hero-instrument {
 }
 
 .hst-accent {
-    width: 0;
+    width: 24px;
     height: 1.5px;
     background: #FF4A2F;
     border-radius: 1px;
     margin-bottom: 4px;
     opacity: 0.85;
     align-self: flex-end;
-    transition: width 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.55s;
 }
 
 body.loaded .hst-accent {
@@ -1054,13 +1046,11 @@ body.loaded .hst-accent {
     font-weight: 500;
     letter-spacing: 0.16em;
     line-height: 1.35;
-    color: rgba(17, 17, 17, 0.44);
+    color: rgba(17, 17, 17, 0.65);
     text-transform: uppercase;
     text-align: right;
-    opacity: 0;
-    transform: translateY(4px);
-    transition: opacity 0.7s ease 0.85s,
-        transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.85s;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 body.loaded .hst-line {
@@ -1722,8 +1712,8 @@ body.loaded .hero-scroll {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: rgba(250, 249, 246, 0.78);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    color: #44423e;
+    border-bottom: 1px solid var(--line);
     padding-bottom: 16px;
 }
 

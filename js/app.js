@@ -160,9 +160,9 @@ function initPreloader() {
     }
 
     // Safety fallback: never trap user under any circumstances
-    const safetyTimeout = setTimeout(dismissLoader, 2400);
+    const safetyTimeout = setTimeout(dismissLoader, 900);
 
-    // Sequence timing: ~1.4 - 1.6 seconds total
+    // Sequence timing: ~0.75s total for snappy, world-class responsive UX
     if (typeof gsap !== 'undefined') {
         const tl = gsap.timeline({
             onComplete: () => {
@@ -173,60 +173,62 @@ function initPreloader() {
 
         // 1. Initial full black state
         tl.set(loader, { backgroundColor: '#0B0B0B' })
-          .set(wordmark, { opacity: 0, y: 10 })
+          .set(wordmark, { opacity: 0, y: 8 })
           .set(line, { width: '0%', left: 0 })
-          .set(taglines, { opacity: 0, y: 6 })
+          .set(taglines, { opacity: 0, y: 5 })
           .set(paperVeil, { clipPath: 'inset(50% 50% 50% 50%)', opacity: 0 });
 
-        // 2. Wordmark entrance (520ms)
+        // 2. Wordmark entrance (280ms)
         tl.to(wordmark, {
             opacity: 1,
             y: 0,
-            duration: 0.52,
+            duration: 0.28,
             ease: 'cubic-bezier(0.16, 1, 0.3, 1)'
-        }, '+=0.04');
+        }, '+=0.02');
 
-        // 3. Thin orange line appears beneath it (360ms, draws left -> right)
+        // 3. Thin orange line appears beneath it (200ms, draws left -> right)
         tl.to(line, {
             width: '100%',
-            duration: 0.36,
+            duration: 0.20,
             ease: 'cubic-bezier(0.25, 1, 0.5, 1)'
-        }, '-=0.16');
+        }, '-=0.10');
 
-        // 4. Tagline reveal: CRAFTED TECH. / CURATED DESIGN. (380ms)
+        // 4. Tagline reveal: CRAFTED TECH. / CURATED DESIGN. (220ms)
         tl.to(taglines, {
             opacity: 1,
             y: 0,
-            duration: 0.38,
-            stagger: 0.06,
+            duration: 0.22,
+            stagger: 0.04,
             ease: 'cubic-bezier(0.16, 1, 0.3, 1)'
-        }, '-=0.14');
+        }, '-=0.08');
 
-        // 5. Brief hold on complete composition (160ms)
-        tl.to({}, { duration: 0.16 });
+        // 5. Brief hold on complete composition (100ms)
+        tl.to({}, { duration: 0.10 });
 
         // 6. Signature Transition: Orange line expands & warm off-white canvas expands outward
         tl.to(line, {
             width: '100vw',
             left: '-50vw',
             opacity: 0.75,
-            duration: 0.30,
+            duration: 0.20,
             ease: 'cubic-bezier(0.77, 0, 0.175, 1)'
         });
 
         tl.to(paperVeil, {
             opacity: 1,
             clipPath: 'inset(0% 0% 0% 0%)',
-            duration: 0.38,
+            duration: 0.24,
             ease: 'cubic-bezier(0.77, 0, 0.175, 1)'
-        }, '-=0.26');
+        }, '-=0.16');
 
-        tl.to(stage, {
-            opacity: 0,
-            y: -10,
-            duration: 0.22,
-            ease: 'power2.in'
-        }, '-=0.32');
+        if (stage) {
+            tl.to(stage, {
+                opacity: 0,
+                y: -10,
+                duration: 0.18,
+                ease: 'power2.in'
+            }, '-=0.20');
+        }
     } else {
         // Lightweight Vanilla CSS transition fallback
         wordmark.style.transition = 'opacity 0.7s ease, transform 0.7s ease';
