@@ -106,14 +106,8 @@
     <link rel="stylesheet" href="css/main.css?v=20261021_v1">
     <link rel="stylesheet" href="css/animations.css?v=20261021_v1">
     <link rel="stylesheet" href="css/routes.css?v=20261021_v1">
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "ze7ccgevvt");
-    </script>
+    <!-- DPDP Act 2023 Consent & Privacy-First Telemetry -->
+    <script src="js/consent.js" defer></script>
 </head>
 
 <body class="loaded">
@@ -196,7 +190,7 @@
                 Cookie &amp; Privacy Protocols
             </h1>
             <p class="route-lead">
-                LuxeStudio operates on a zero-bloat standard. We do not set tracking cookies, write persistent profiling tokens to your device, or sell behavioral browsing data.
+                LuxeStudio operates on strict DPDP data ethics. We deploy zero advertising cookies and zero cross-site trackers. Performance and UX diagnostics (Microsoft Clarity) are activated strictly upon your affirmative consent.
             </p>
         </section>
 
@@ -205,11 +199,11 @@
             <aside class="legal-sidebar" aria-label="Cookie Policy Index">
                 <div class="legal-index-title">SECTION INDEX</div>
                 <nav class="legal-index-nav">
-                    <a href="#section-1" class="legal-index-link">01.0 Zero-Cookie Standard</a>
-                    <a href="#section-2" class="legal-index-link">02.0 Client-Side State</a>
-                    <a href="#section-3" class="legal-index-link">03.0 Third-Party Services</a>
-                    <a href="#section-4" class="legal-index-link">04.0 Zero Ad Trackers</a>
-                    <a href="#section-5" class="legal-index-link">05.0 Browser Controls</a>
+                    <a href="#section-1" class="legal-index-link">01.0 Zero Ad Cookies</a>
+                    <a href="#section-2" class="legal-index-link">02.0 Client Preferences</a>
+                    <a href="#section-3" class="legal-index-link">03.0 UX Diagnostics (Clarity)</a>
+                    <a href="#section-4" class="legal-index-link">04.0 Third-Party Processors</a>
+                    <a href="#section-5" class="legal-index-link">05.0 Interactive Consent Hub</a>
                 </nav>
             </aside>
 
@@ -218,57 +212,95 @@
                 <!-- Section 01 -->
                 <section class="legal-section" id="section-1">
                     <span class="legal-sec-num">SECTION 01.0</span>
-                    <h2>Zero-Cookie Standard</h2>
+                    <h2>Zero Advertising Cookies &amp; DPDP Architecture</h2>
                     <p>
-                        Unlike conventional digital agencies that clutter your browser with analytics beacons, cross-site identifiers, and behavioral trackers, LuxeStudio is engineered to be <strong>100% cookie-free on our primary domain</strong>. We do not set any first-party cookies when you navigate our portfolio, read our case studies, or view our services.
+                        LuxeStudio adheres strictly to the <strong>Digital Personal Data Protection Act, 2023 (DPDP)</strong> and modern global privacy standards. We operate on a clean digital hygiene principle:
+                    </p>
+                    <div class="legal-callout">
+                        <strong>Zero Ad Tracking:</strong> We never set third-party advertising cookies, retargeting pixels, or behavioral profiling beacons. We do not monetize browsing telemetry or sell visitor data under any circumstances.
+                    </div>
+                    <p>
+                        Any non-essential cookies (such as performance and user experience analytics) are <strong>strictly consent-gated</strong>. They will never be written to your browser unless you grant explicit affirmative consent via our consent prompt.
                     </p>
                 </section>
 
                 <!-- Section 02 -->
                 <section class="legal-section" id="section-2">
                     <span class="legal-sec-num">SECTION 02.0</span>
-                    <h2>Client-Side State &amp; Preferences</h2>
+                    <h2>Client-Side State &amp; Functional Storage</h2>
                     <p>
-                        Our platform respects your hardware and accessibility configurations without saving tracking tokens:
+                        Our platform respects your hardware preferences and local autonomy:
                     </p>
                     <ul>
-                        <li><strong>Reduced Motion:</strong> We detect your operating system's motion preference in real time via CSS <code>prefers-reduced-motion</code> media queries. We do not write persistent tracking tokens or storage keys to your machine.</li>
-                        <li><strong>Ephemeral Memory:</strong> Interactive interface states (such as active navigation drawers and accordion accord toggles) exist only in your browser's active tab memory and are immediately cleared when you close the tab.</li>
+                        <li><strong>Reduced Motion:</strong> Detected dynamically via the CSS <code>prefers-reduced-motion</code> media query. We do not write tracking tokens to your machine.</li>
+                        <li><strong>Consent Memory (LocalStorage):</strong> We store your consent decision under the key <code>luxestudio_cookie_consent</code> (value: <code>granted</code> or <code>denied</code>) so that we do not repeatedly disrupt your browsing.</li>
+                        <li><strong>Ephemeral Session Memory:</strong> Interactive interface states (such as active navigation drawers and accordion toggles) exist only in memory during your active session.</li>
                     </ul>
                 </section>
 
                 <!-- Section 03 -->
                 <section class="legal-section" id="section-3">
                     <span class="legal-sec-num">SECTION 03.0</span>
-                    <h2>Third-Party Services &amp; External Integrations</h2>
+                    <h2>UX Diagnostics &amp; Telemetry (Microsoft Clarity)</h2>
                     <p>
-                        To deliver peak performance, typographic fidelity, and project inquiry channels, LuxeStudio interacts with select third-party services:
+                        To identify UI layout shifts, diagnose broken links, and optimize website responsiveness, LuxeStudio utilizes <strong>Microsoft Clarity</strong>. In full compliance with DPDP Section 6, this service is <em>only loaded if you explicitly accept telemetry</em>.
                     </p>
+                    <p>When consent is granted, the following first-party telemetry cookies may be set:</p>
                     <ul>
-                        <li><strong>Content Delivery &amp; Fonts:</strong> Typography (Google Fonts) and core animation frameworks (GSAP, Lenis) are loaded over encrypted HTTPS connections. These providers deliver static asset files without placing advertising cookies.</li>
-                        <li><strong>External Booking &amp; Messaging:</strong> When you choose to book a discovery call via Calendly or start a conversation via WhatsApp, you navigate directly to their respective domains (<code>calendly.com</code> or <code>wa.me</code>), which operate under their own independent privacy and cookie policies.</li>
-                        <li><strong>Zero-Backend Form Dispatch:</strong> Inquiries submitted via our contact brief are transmitted directly to our secure email routing partner (FormSubmit) over TLS to deliver your message to our studio inbox without persistent behavioral profiling.</li>
+                        <li><strong><code>_clck</code>:</strong> Persists the unique anonymous Clarity user ID across page views to understand visitor flows (Expires: 1 year).</li>
+                        <li><strong><code>_clsk</code>:</strong> Connects multiple page views in a single session into unified playback telemetry (Expires: 1 day).</li>
+                        <li><strong><code>CLID</code>:</strong> Identifies the first-time browser instance for performance deduplication.</li>
                     </ul>
+                    <div class="legal-callout">
+                        <strong>Privacy Safeguards &amp; Masking:</strong> Sensitive input fields and form keystrokes are automatically masked by default. Microsoft Clarity never captures financial details, credentials, or personal secrets, and data is never utilized for targeted advertising.
+                    </div>
                 </section>
 
                 <!-- Section 04 -->
                 <section class="legal-section" id="section-4">
                     <span class="legal-sec-num">SECTION 04.0</span>
-                    <h2>Zero Third-Party Advertising Trackers</h2>
-                    <div class="legal-callout">
-                        <strong>Clean Digital Hygiene:</strong> LuxeStudio maintains zero integration with advertising networks. We do not load Meta Pixels, Google Tag Manager remarketing tags, TikTok tracking pixels, or cross-site fingerprinting scripts.
-                    </div>
+                    <h2>Third-Party Services &amp; External Integrations</h2>
+                    <p>
+                        LuxeStudio integrates with trusted technical processors operating under robust security certifications (ISO 27001, SOC 2):
+                    </p>
+                    <ul>
+                        <li><strong>Content Delivery &amp; Fonts:</strong> Google Fonts and GSAP animations are delivered over encrypted HTTPS without advertising cookies.</li>
+                        <li><strong>External Booking &amp; Messaging:</strong> If you book a discovery call via Calendly or message our studio via WhatsApp, you navigate directly to their respective domains (<code>calendly.com</code> or <code>wa.me</code>), which operate under their own independent privacy notices.</li>
+                        <li><strong>Zero-Backend Form Dispatch:</strong> Discovery briefs submitted via our contact page are transmitted over TLS via FormSubmit directly to studio management mailboxes.</li>
+                    </ul>
                 </section>
 
                 <!-- Section 05 -->
                 <section class="legal-section" id="section-5">
                     <span class="legal-sec-num">SECTION 05.0</span>
-                    <h2>Managing Storage &amp; Cookie Preferences</h2>
+                    <h2>Consent Management Hub (DPDP Section 6(4))</h2>
                     <p>
-                        Because LuxeStudio does not deploy tracking cookies, you do not need to manage complex consent banners or opt-out forms to enjoy a private experience. You can independently inspect, block, or clear storage at any time through your browser's security preferences (Chrome, Safari, Firefox, Edge, or Brave).
+                        Under Section 6(4) of the DPDP Act 2023, you have the right to withdraw or modify your consent at any time, with the same ease as granting it. Use our interactive consent controls below:
+                    </p>
+                    
+                    <div class="legal-callout" style="margin: 1.5rem 0; padding: 20px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 6px;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 14px;">
+                            <span style="font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent);">YOUR CURRENT PREFERENCE:</span>
+                            <span id="consentStatusBadge" style="font-family: var(--font-mono); font-size: 0.75rem; padding: 3px 10px; border-radius: 4px; background: rgba(255,255,255,0.1); color: #fff; font-weight: 600;">CHECKING...</span>
+                        </div>
+                        <p style="font-size: 0.8125rem; color: var(--muted); margin-bottom: 16px; line-height: 1.5;">
+                            Click below to open the consent prompt and update your preference, or immediately revoke telemetry authorization across your browser.
+                        </p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <button type="button" id="openConsentModalBtn" class="magnetic" style="padding: 8px 16px; font-size: 0.8125rem; font-weight: 600; background: #ffffff; color: #111111; border: 1px solid #ffffff; border-radius: 4px; cursor: pointer;">
+                                Change Preferences
+                            </button>
+                            <button type="button" id="revokeConsentImmediateBtn" class="magnetic" style="padding: 8px 16px; font-size: 0.8125rem; font-weight: 600; background: transparent; color: #ffffff; border: 1px solid rgba(255,255,255,0.25); border-radius: 4px; cursor: pointer;">
+                                Revoke Telemetry Consent
+                            </button>
+                        </div>
+                    </div>
+
+                    <p style="margin-top: 1.5rem;">
+                        <strong>Browser-Level Blocking:</strong> You can also block or clear all cookies at any time via your browser settings (Chrome, Safari, Firefox, Edge, or Brave). Blocking analytics cookies will have zero impact on the visual quality or functionality of LuxeStudio.
                     </p>
                     <p style="font-family: var(--font-mono); font-size: 0.8125rem; color: var(--muted); margin-top: 2rem;">
-                        PRIVACY &amp; SECURITY INQUIRIES // hello@theluxestudio.in
+                        GRIEVANCE &amp; PRIVACY INQUIRIES // grievance@theluxestudio.in &middot; hello@theluxestudio.in
                     </p>
                 </section>
 
@@ -350,6 +382,53 @@
     <!-- Scripts -->
     <script src="js/cursor.js"></script>
     <script src="js/app.js"></script>
+
+    <!-- Consent Hub Interactive Logic -->
+    <script>
+        (function() {
+            function updateBadge() {
+                const badge = document.getElementById('consentStatusBadge');
+                if (!badge) return;
+                const status = window.getLuxeConsentStatus ? window.getLuxeConsentStatus() : localStorage.getItem('luxestudio_cookie_consent');
+                if (status === 'granted') {
+                    badge.textContent = 'TELEMETRY ACCEPTED';
+                    badge.style.background = '#2E7D32';
+                    badge.style.color = '#FFFFFF';
+                } else if (status === 'denied') {
+                    badge.textContent = 'ESSENTIAL ONLY (DECLINED)';
+                    badge.style.background = '#C62828';
+                    badge.style.color = '#FFFFFF';
+                } else {
+                    badge.textContent = 'NOT DECIDED (DEFAULT ESSENTIAL)';
+                    badge.style.background = 'rgba(255,255,255,0.15)';
+                    badge.style.color = '#E0E0E0';
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', updateBadge);
+            window.addEventListener('luxestudio_consent_updated', updateBadge);
+
+            const openBtn = document.getElementById('openConsentModalBtn');
+            if (openBtn) {
+                openBtn.addEventListener('click', function() {
+                    if (window.openLuxeConsent) window.openLuxeConsent();
+                });
+            }
+
+            const revokeBtn = document.getElementById('revokeConsentImmediateBtn');
+            if (revokeBtn) {
+                revokeBtn.addEventListener('click', function() {
+                    if (window.revokeLuxeConsent) {
+                        window.revokeLuxeConsent();
+                    } else {
+                        localStorage.setItem('luxestudio_cookie_consent', 'denied');
+                    }
+                    updateBadge();
+                    alert('Analytics telemetry consent has been revoked. Microsoft Clarity will not record your session.');
+                });
+            }
+        })();
+    </script>
 </body>
 
 </html>

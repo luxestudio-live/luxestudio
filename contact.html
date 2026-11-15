@@ -613,6 +613,48 @@
             font-weight: 600;
         }
 
+        .ct-consent-field {
+            margin-top: 10px;
+        }
+
+        .ct-consent-label {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .ct-consent-checkbox {
+            margin-top: 3px;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent);
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .ct-consent-text {
+            font-size: 0.8125rem;
+            line-height: 1.5;
+            color: rgba(17, 17, 17, 0.75);
+        }
+
+        .ct-consent-text a {
+            color: #111111;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .ct-consent-text a:hover {
+            color: var(--accent);
+        }
+
+        .ct-field.has-error .ct-consent-checkbox {
+            outline: 2px solid #D32F2F;
+        }
+
         .ct-field-error {
             display: none;
             font-family: var(--font-mono);
@@ -752,14 +794,8 @@
             }
         }
     </style>
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "ze7ccgevvt");
-    </script>
+    <!-- DPDP Act 2023 Consent & Privacy-First Telemetry -->
+    <script src="js/consent.js" defer></script>
 </head>
 
 <body class="loaded">
@@ -1021,6 +1057,18 @@
                         <div class="ct-field-error" id="briefError" role="alert"></div>
                     </div>
 
+                    <!-- DPDP Statutory Consent Notice -->
+                    <div class="ct-field ct-consent-field" id="fieldConsentGroup">
+                        <label class="ct-consent-label" for="dpdpConsent">
+                            <input type="checkbox" id="dpdpConsent" name="dpdp_consent" value="agreed" required
+                                class="ct-consent-checkbox" aria-describedby="consentError" aria-required="true">
+                            <span class="ct-consent-text">
+                                I consent to LuxeStudio collecting and processing my name, phone number, and project brief solely for preliminary evaluation and consultation in accordance with the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a> and the Digital Personal Data Protection Act, 2023 (DPDP). Consent may be withdrawn at any time.
+                            </span>
+                        </label>
+                        <div class="ct-field-error" id="consentError" role="alert"></div>
+                    </div>
+
                     <!-- Submit -->
                     <button type="submit" class="ct-submit-btn magnetic" id="submitBtn">
                         <span id="submitBtnText">Send Brief</span>
@@ -1168,6 +1216,10 @@
             const briefError = document.getElementById('briefError');
             const briefCounter = document.getElementById('briefCounter');
 
+            const consentInput = document.getElementById('dpdpConsent');
+            const consentGroup = document.getElementById('fieldConsentGroup');
+            const consentError = document.getElementById('consentError');
+
             const submitBtn = document.getElementById('submitBtn');
             const submitBtnText = document.getElementById('submitBtnText');
             const submitBtnIcon = document.getElementById('submitBtnIcon');
@@ -1234,6 +1286,13 @@
                 const tld = domainParts[domainParts.length - 1];
                 if (!tld || tld.length < 2) {
                     return 'Please provide a valid domain extension (e.g. .com, .studio, .in).';
+                }
+                return '';
+            }
+
+            function validateConsent(isChecked) {
+                if (!isChecked) {
+                    return 'Consent is required to submit your project brief under the DPDP Act 2023.';
                 }
                 return '';
             }
@@ -1331,6 +1390,15 @@
                 }
             });
 
+            // Consent checkbox listener
+            if (consentInput && consentGroup) {
+                consentInput.addEventListener('change', () => {
+                    if (consentGroup.classList.contains('has-error')) {
+                        updateFieldUI(consentGroup, consentError, consentInput, validateConsent(consentInput.checked), true);
+                    }
+                });
+            }
+
             // Initialize counter on load
             updateCharCounter();
 
@@ -1342,14 +1410,16 @@
                 const isPhoneValid = updateFieldUI(phoneGroup, phoneError, phoneInput, validatePhone(phoneInput.value), true);
                 const isEmailValid = updateFieldUI(emailGroup, emailError, emailInput, validateEmail(emailInput.value), true);
                 const isBriefValid = updateFieldUI(briefGroup, briefError, briefInput, validateBrief(briefInput.value), true);
+                const isConsentValid = updateFieldUI(consentGroup, consentError, consentInput, validateConsent(consentInput ? consentInput.checked : false), true);
 
-                if (!isNameValid || !isPhoneValid || !isEmailValid || !isBriefValid) {
+                if (!isNameValid || !isPhoneValid || !isEmailValid || !isBriefValid || !isConsentValid) {
                     // Identify first invalid field
                     const invalidFields = [
                         { valid: isNameValid, group: nameGroup, input: nameInput },
                         { valid: isPhoneValid, group: phoneGroup, input: phoneInput },
                         { valid: isEmailValid, group: emailGroup, input: emailInput },
-                        { valid: isBriefValid, group: briefGroup, input: briefInput }
+                        { valid: isBriefValid, group: briefGroup, input: briefInput },
+                        { valid: isConsentValid, group: consentGroup, input: consentInput }
                     ].filter(f => !f.valid);
 
                     if (invalidFields.length > 0) {

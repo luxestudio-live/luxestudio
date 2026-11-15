@@ -106,14 +106,8 @@
     <link rel="stylesheet" href="css/main.css?v=20261021_v1">
     <link rel="stylesheet" href="css/animations.css?v=20261021_v1">
     <link rel="stylesheet" href="css/routes.css?v=20261021_v1">
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "ze7ccgevvt");
-    </script>
+    <!-- DPDP Act 2023 Consent & Privacy-First Telemetry -->
+    <script src="js/consent.js" defer></script>
 </head>
 
 <body class="loaded">
@@ -207,10 +201,11 @@
                 <nav class="legal-index-nav">
                     <a href="#section-1" class="legal-index-link">01.0 Information Collected</a>
                     <a href="#section-2" class="legal-index-link">02.0 Zero-Surveillance Pledge</a>
-                    <a href="#section-3" class="legal-index-link">03.0 Technical Infrastructure</a>
+                    <a href="#section-3" class="legal-index-link">03.0 Technical Processors</a>
                     <a href="#section-4" class="legal-index-link">04.0 Retention &amp; Security</a>
-                    <a href="#section-5" class="legal-index-link">05.0 Global User Rights</a>
-                    <a href="#section-6" class="legal-index-link">06.0 Data Officer Inquiries</a>
+                    <a href="#section-5" class="legal-index-link">05.0 DPDP &amp; Global Rights</a>
+                    <a href="#section-6" class="legal-index-link">06.0 Protection of Minors</a>
+                    <a href="#section-7" class="legal-index-link">07.0 Grievance Officer &amp; DPBI</a>
                 </nav>
             </aside>
 
@@ -219,71 +214,99 @@
                 <!-- Section 01 -->
                 <section class="legal-section" id="section-1">
                     <span class="legal-sec-num">SECTION 01.0</span>
-                    <h2>Information We Collect</h2>
+                    <h2>Information We Collect &amp; Lawful Grounds</h2>
                     <p>
-                        LuxeStudio collects only the minimum information necessary to conduct project consultations, execute engineering agreements, and ensure website performance:
+                        LuxeStudio collects only the minimum personal data necessary to evaluate commercial inquiries, conduct project consultations, execute engineering agreements, and ensure platform performance. All data is processed pursuant to Section 4 and Section 6 of the <strong>Digital Personal Data Protection Act, 2023 (DPDP)</strong> and global data privacy standards:
                     </p>
                     <ul>
-                        <li><strong>Inquiry Brief Data:</strong> Name, professional email address, company name, project parameters, and notes submitted via our discovery form.</li>
-                        <li><strong>Technical Telemetry:</strong> Aggregated anonymous network performance metrics (TTFB, FCP, Core Web Vitals) through edge CDN routing.</li>
+                        <li><strong>Inquiry Brief Data:</strong> Full Name, telephone/WhatsApp contact number, professional email address, and project requirements voluntarily provided via our discovery form with affirmative consent.</li>
+                        <li><strong>Consent-Gated UX Telemetry:</strong> Anonymized behavioral telemetry (clicks, heatmaps, scroll depth, interaction friction) via Microsoft Clarity. This is <em>only activated after you provide affirmative consent</em> via our DPDP consent dialog. Keystroke masking is strictly enforced.</li>
+                        <li><strong>Edge Network Telemetry:</strong> Anonymous edge CDN technical diagnostics (TTFB, FCP, latency metrics) strictly necessary for cyber defense and network load distribution.</li>
                     </ul>
                 </section>
 
                 <!-- Section 02 -->
                 <section class="legal-section" id="section-2">
                     <span class="legal-sec-num">SECTION 02.0</span>
-                    <h2>Zero-Surveillance Pledge</h2>
+                    <h2>Zero-Surveillance &amp; No Advertising Pledge</h2>
                     <div class="legal-callout">
-                        <strong>No Data Brokering:</strong> LuxeStudio will never sell, lease, rent, or trade client information to third-party advertisers, data brokers, or marketing networks.
+                        <strong>No Data Brokering or Ad Tracking:</strong> LuxeStudio will never sell, lease, monetize, or trade client or visitor data to third-party data brokers, ad networks, or marketing consortia.
                     </div>
                     <p>
-                        We do not employ cross-site tracking pixels, persistent social tracking beacons, or fingerprinting scripts. 
-                        Your interaction on LuxeStudio remains isolated and confidential.
+                        We do not employ cross-site tracking pixels (such as Meta Pixel or TikTok Pixel), persistent profiling identifiers, or canvas fingerprinting. Your interaction on LuxeStudio remains confidential and contained within our domain.
                     </p>
                 </section>
 
                 <!-- Section 03 -->
                 <section class="legal-section" id="section-3">
                     <span class="legal-sec-num">SECTION 03.0</span>
-                    <h2>Technical Infrastructure &amp; Processors</h2>
+                    <h2>Technical Infrastructure &amp; Data Processors</h2>
                     <p>
-                        To deliver low-latency global experiences, we utilize industry-leading cloud infrastructure providers who comply with ISO 27001, SOC 2, and GDPR standards (e.g., Cloudflare CDN, Vercel Edge Network, GitHub Pages, Google Cloud Fonts).
+                        In our capacity as <strong>Data Fiduciary</strong>, LuxeStudio engages only vetted, compliant technical <strong>Data Processors</strong> bound by strict confidentiality and data protection obligations under DPDP Section 8(2):
                     </p>
+                    <ul>
+                        <li><strong>Cloud Hosting &amp; Edge Delivery:</strong> AWS Amplify &amp; Cloudflare CDN (Global TLS edge caching, SOC 2, ISO 27001).</li>
+                        <li><strong>Encrypted Form Transmission:</strong> FormSubmit (Zero-backend TLS relay to designated studio partner mailboxes for project evaluation).</li>
+                        <li><strong>UX Diagnostics (Consent-Gated):</strong> Microsoft Clarity (Azure cloud infrastructure; GDPR and DPDP compliant telemetry).</li>
+                        <li><strong>Typographic Delivery:</strong> Google Fonts (Static asset caching with zero tracking cookies).</li>
+                    </ul>
                 </section>
 
                 <!-- Section 04 -->
                 <section class="legal-section" id="section-4">
                     <span class="legal-sec-num">SECTION 04.0</span>
-                    <h2>Data Retention &amp; Security Standards</h2>
+                    <h2>Data Retention &amp; Security Safeguards</h2>
                     <p>
-                        Inquiry information is stored in encrypted databases with strict multi-factor access control. 
-                        Project data is retained for the duration of the commercial relationship and archived securely thereafter in accordance with statutory accounting obligations.
+                        Under Section 8(5) of the DPDP Act 2023, LuxeStudio implements robust technical and organizational security safeguards to prevent unauthorized access, disclosure, or personal data breach:
                     </p>
+                    <ul>
+                        <li><strong>Transport Layer Encryption:</strong> All transit occurs over TLS 1.3 encryption with strict HSTS enforcement.</li>
+                        <li><strong>Purpose-Bound Retention:</strong> Contact brief inquiries are retained solely for the lifecycle of consultation and commercial collaboration, after which they are securely expunged, unless retention is required under statutory accounting laws.</li>
+                        <li><strong>Breach Notification:</strong> In the unforeseen event of a personal data breach, LuxeStudio will notify the Data Protection Board of India (DPBI) and affected Data Principals in accordance with statutory requirements.</li>
+                    </ul>
                 </section>
 
                 <!-- Section 05 -->
                 <section class="legal-section" id="section-5">
                     <span class="legal-sec-num">SECTION 05.0</span>
-                    <h2>Global User Rights (GDPR, CCPA &amp; DPDP)</h2>
+                    <h2>Data Principal Rights (DPDP Act 2023 &amp; Global Frameworks)</h2>
                     <p>
-                        Regardless of geographic location, all visitors enjoy full sovereignty over their data, including:
+                        As a Data Principal under India's DPDP Act 2023 (and global regulations such as GDPR / CCPA), you are vested with full enforceable rights over your digital personal data:
                     </p>
                     <ul>
-                        <li><strong>Right of Access &amp; Portability:</strong> Request a complete copy of your submitted data.</li>
-                        <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> Request immediate permanent deletion of your project inquiries.</li>
-                        <li><strong>Right of Rectification:</strong> Update inaccurate business parameters at any time.</li>
+                        <li><strong>Right to Access Information (Section 11):</strong> Request a summary of personal data processed, identities of data processors involved, and any relevant processing details.</li>
+                        <li><strong>Right to Correction &amp; Erasure (Section 12):</strong> Request correction of inaccurate information, completion of incomplete data, or permanent erasure of personal data that has fulfilled its specified purpose.</li>
+                        <li><strong>Right of Grievance Redressal (Section 13):</strong> Access a structured, readily available grievance redressal mechanism provided by LuxeStudio.</li>
+                        <li><strong>Right to Nominate (Section 14):</strong> Designate another individual who shall exercise your rights in the event of death or incapacity.</li>
+                        <li><strong>Right to Withdraw Consent (Section 6(4)):</strong> Withdraw consent at any time with the same ease as granting it. You can manage your telemetry preferences anytime on our <a href="cookies.html" style="color:var(--accent); text-decoration:underline;">Cookie Protocol page</a>.</li>
                     </ul>
                 </section>
 
                 <!-- Section 06 -->
                 <section class="legal-section" id="section-6">
                     <span class="legal-sec-num">SECTION 06.0</span>
-                    <h2>Data Protection Inquiries</h2>
+                    <h2>Protection of Children's Personal Data</h2>
                     <p>
-                        To exercise your rights or request data removal, contact our data protection team directly:
+                        In strict observance of Section 9 of the DPDP Act 2023, LuxeStudio provides bespoke enterprise, design, and software engineering services intended solely for individuals aged eighteen (18) and older. We do not knowingly solicit, collect, or process personal data belonging to children, nor do we deploy behavioral monitoring or targeted profiling directed at minors.
                     </p>
-                    <p style="font-family: var(--font-mono); font-size: 0.875rem; color: var(--accent); margin-top: 1rem;">
-                        PRIVACY TEAM // privacy@theluxestudio.in &middot; hello@theluxestudio.in
+                </section>
+
+                <!-- Section 07 -->
+                <section class="legal-section" id="section-7">
+                    <span class="legal-sec-num">SECTION 07.0</span>
+                    <h2>Data Protection Officer &amp; Grievance Redressal</h2>
+                    <p>
+                        In compliance with Section 13 of the Digital Personal Data Protection Act, 2023, LuxeStudio has appointed a dedicated Grievance Redressal Officer to address inquiries and rights requests:
+                    </p>
+                    <div class="legal-callout">
+                        <strong>DATA FIDUCIARY:</strong> LuxeStudio Creative Technology<br>
+                        <strong>DESIGNATED GRIEVANCE OFFICER:</strong> Office of the Data Protection &amp; Grievance Officer<br>
+                        <strong>DIRECT GRIEVANCE EMAIL:</strong> <a href="mailto:grievance@theluxestudio.in" style="color:var(--accent);">grievance@theluxestudio.in</a> &middot; <a href="mailto:privacy@theluxestudio.in" style="color:var(--accent);">privacy@theluxestudio.in</a><br>
+                        <strong>LOCATION &amp; JURISDICTION:</strong> Mumbai, Maharashtra 400001, India<br>
+                        <strong>STATUTORY RESOLUTION TIMELINE:</strong> Grievance acknowledgment within 48 hours; full resolution within 30 calendar days.
+                    </div>
+                    <p style="margin-top: 1.5rem;">
+                        <strong>Escalation to the Data Protection Board of India (DPBI):</strong> If your grievance is not resolved to your satisfaction within thirty (30) days, or if you believe our data processing violates the DPDP Act 2023, you have the statutory right under Section 13(3) of the Act to lodge a formal complaint with the <strong>Data Protection Board of India (DPBI)</strong>.
                     </p>
                 </section>
 
