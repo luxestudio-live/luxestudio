@@ -40,6 +40,14 @@
             const style = document.createElement('style');
             style.id = 'luxeConsentStyle';
             style.textContent = `
+                /* Elevate custom cursor elements above all layers */
+                .cursor-dot {
+                    z-index: 10000001 !important;
+                }
+                .cursor-ring {
+                    z-index: 10000000 !important;
+                }
+
                 .luxe-consent-card {
                     position: fixed;
                     bottom: 24px;
@@ -52,7 +60,7 @@
                     border: 1px solid rgba(255, 255, 255, 0.15);
                     border-radius: 8px;
                     padding: 22px 24px;
-                    z-index: 999999;
+                    z-index: 99990;
                     box-shadow: 0 20px 48px rgba(0, 0, 0, 0.6);
                     font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
                     color: #e5e5e5;
@@ -166,19 +174,20 @@
         banner.className = 'luxe-consent-card';
         banner.setAttribute('role', 'dialog');
         banner.setAttribute('aria-modal', 'false');
-        banner.setAttribute('aria-label', 'Data Privacy and Telemetry Preferences');
+        banner.setAttribute('aria-label', 'Data Privacy and Cookie Preferences');
+        banner.setAttribute('data-theme', 'dark');
         banner.innerHTML = `
             <div class="luxe-consent-badge">
                 <span class="luxe-consent-badge-dot" aria-hidden="true"></span>
-                <span>DPDP ACT 2023 // PRIVACY PROTOCOL</span>
+                <span>PRIVACY &amp; COOKIES</span>
             </div>
-            <h2 class="luxe-consent-title">Privacy &amp; Analytics Consent</h2>
+            <h2 class="luxe-consent-title">Cookie &amp; Privacy Preferences</h2>
             <p class="luxe-consent-desc">
-                We use privacy-respecting session telemetry (Microsoft Clarity) to diagnose performance and enhance UX fidelity. Under India's <strong>DPDP Act 2023</strong>, we require your permission before activating analytics. We never deploy advertising cookies or monetize user telemetry. Read our <a href="cookies.html" target="_blank" rel="noopener">Cookie Protocol</a>.
+                We use cookies and anonymous telemetry to analyze site traffic, prevent layout errors, and enhance user experience. We never sell your personal data or deploy advertising trackers. Read our <a href="cookies.html" target="_blank" rel="noopener">Cookie Protocol</a>.
             </p>
             <div class="luxe-consent-actions">
-                <button type="button" class="luxe-consent-btn luxe-consent-btn-accept" id="luxeAcceptConsent">Accept Telemetry</button>
-                <button type="button" class="luxe-consent-btn luxe-consent-btn-essential" id="luxeDeclineConsent">Essential Only</button>
+                <button type="button" class="luxe-consent-btn luxe-consent-btn-accept magnetic" id="luxeAcceptConsent">Accept All</button>
+                <button type="button" class="luxe-consent-btn luxe-consent-btn-essential magnetic" id="luxeDeclineConsent">Essential Only</button>
             </div>
         `;
 

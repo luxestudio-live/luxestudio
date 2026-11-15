@@ -205,14 +205,14 @@ video {
     top: 0;
     left: 0;
     pointer-events: none !important;
-    z-index: 100000;
+    z-index: 10000000;
     opacity: 0;
     transition: opacity 0.3s ease;
     will-change: transform;
 }
 
 .cursor-dot {
-    z-index: 100001;
+    z-index: 10000001;
 }
 
 /* Layer 1 — Precision Dot (5px LuxeStudio orange center point) */
