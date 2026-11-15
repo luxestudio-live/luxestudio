@@ -9,7 +9,6 @@
     <meta name="description"
         content="The requested digital coordinate does not exist within the LuxeStudio architecture or has been relocated.">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="canonical" href="https://theluxestudio.in/404.html">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -234,12 +233,58 @@
     <!-- Scripts -->
     <script src="js/cursor.js"></script>
     <script src="js/app.js"></script>
-    <script>
-        // Populate current URL path dynamically in telemetry
-        const pathEl = document.getElementById('currentPath');
-        if (pathEl && window.location.pathname) {
-            pathEl.textContent = window.location.pathname;
-        }
+        <script>
+        // Smart client-side redirect router for extensionless, trailing slash, and legacy paths
+        (function() {
+            var rawPath = (window.location.pathname || '').toLowerCase().replace(/\/+$/, '');
+            var routes = {
+                '/about': 'studio.html',
+                '/about-us': 'studio.html',
+                '/portfolio': 'work.html',
+                '/contact-us': 'contact.html',
+                '/privacy-policy': 'privacy.html',
+                '/terms-and-conditions': 'terms.html',
+                '/refund-policy': 'terms.html',
+                '/shipping-policy': 'terms.html',
+                '/cancellation-policy': 'terms.html',
+                '/billing-policy': 'terms.html',
+                '/services': 'services.html',
+                '/work': 'work.html',
+                '/case-studies': 'case-studies.html',
+                '/studio': 'studio.html',
+                '/contact': 'contact.html',
+                '/reviews': 'reviews.html',
+                '/faq': 'faq.html',
+                '/custom-website-development': 'custom-website-development.html',
+                '/website-redesign-services': 'website-redesign-services.html',
+                '/business-process-automation': 'business-process-automation.html',
+                '/business-website-design': 'business-website-design.html',
+                '/healthcare-medical-website-development': 'healthcare-medical-website-development.html',
+                '/architecture-interior-design-websites': 'architecture-interior-design-websites.html',
+                '/luxury-ecommerce-website-development': 'luxury-ecommerce-website-development.html',
+                '/education-coaching-website-development': 'education-coaching-website-development.html',
+                '/terms': 'terms.html',
+                '/privacy': 'privacy.html',
+                '/cookies': 'cookies.html',
+                '/accessibility': 'accessibility.html',
+                '/nuvo': '',
+                '/webora': '',
+                '/accessa': '',
+                '/creava': ''
+            };
+
+            if (routes.hasOwnProperty(rawPath)) {
+                var target = routes[rawPath] ? 'https://theluxestudio.in/' + routes[rawPath] : 'https://theluxestudio.in/';
+                window.location.replace(target);
+                return;
+            }
+
+            // Populate current URL path dynamically in telemetry
+            var pathEl = document.getElementById('currentPath');
+            if (pathEl && window.location.pathname) {
+                pathEl.textContent = window.location.pathname;
+            }
+        })();
     </script>
 </body>
 

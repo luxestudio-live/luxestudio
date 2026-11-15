@@ -800,8 +800,9 @@ function initKeyFactsScrollSystem() {
     const target4 = counter4 ? (parseInt(counter4.dataset.target, 10) || 83) : 83;
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isBot = /bot|googlebot|crawler|spider|robot|crawling|prerender|lighthouse|headless|facebookexternalhit|bingbot|slurp|duckduckbot|baiduspider|yandexbot|applebot|semrush|ahrefs/i.test(navigator.userAgent) || Boolean(window.navigator.webdriver);
 
-    // Helper: set final static state immediately (for reduced motion or fallback)
+    // Helper: set final static state immediately (for reduced motion, bots, or fallback)
     function setFinalState() {
         if (counter1) counter1.textContent = target1;
         if (counter2) counter2.textContent = target2;
@@ -818,7 +819,7 @@ function initKeyFactsScrollSystem() {
         if (lineVert) lineVert.style.transform = 'scaleY(1)';
     }
 
-    if (prefersReducedMotion) {
+    if (prefersReducedMotion || isBot) {
         setFinalState();
         return;
     }
@@ -859,6 +860,14 @@ function initKeyFactsScrollSystem() {
                 ease: 'power2.out'
             }, 0);
         }
+
+        // STEP 1b: Reset counters to 0 while cards are still invisible (before 0.2s stagger reveal)
+        tl.add(() => {
+            if (counter1) counter1.textContent = '0';
+            if (counter2) counter2.textContent = '0';
+            if (counter3) counter3.textContent = '0';
+            if (counter4) counter4.textContent = '0';
+        }, 0.1);
 
         // STEP 2: Hairline divider lines reveal subtly (desktop)
         const isMobile = window.innerWidth <= 800;

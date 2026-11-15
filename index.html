@@ -249,6 +249,14 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/main.css?v=20261021_v1">
     <link rel="stylesheet" href="css/animations.css?v=20261021_v1">
+    <!-- Crawler & No-JS Fallback for Key Facts & Critical Animations -->
+    <noscript>
+        <style>
+            .fact-card, .fact-suffix, .facts-title { opacity: 1 !important; transform: none !important; }
+            .fact-grid-line-h { transform: scaleX(1) !important; }
+            .fact-grid-line-v { transform: scaleY(1) !important; }
+        </style>
+    </noscript>
 </head>
 
 <body>
@@ -1310,36 +1318,36 @@
                         <div class="fact-grid-line-v line-vert"></div>
 
                         <!-- Card 01 -->
-                        <div class="fact-card fact-card-1" id="factCard1">
+                        <div class="fact-card fact-card-1" id="factCard1" aria-label="50+ Digital Projects Delivered">
                             <div class="fact-number-wrap">
-                                <span class="counter-value" id="factCounter1" data-target="50">0</span>
+                                <span class="counter-value" id="factCounter1" data-target="50">50</span>
                                 <span class="fact-suffix" id="factSuffix1">+</span>
                             </div>
                             <div class="fact-label" id="factLabel1">Digital Projects Delivered</div>
                         </div>
 
                         <!-- Card 02 -->
-                        <div class="fact-card fact-card-2" id="factCard2">
+                        <div class="fact-card fact-card-2" id="factCard2" aria-label="12+ Industries Explored">
                             <div class="fact-number-wrap">
-                                <span class="counter-value" id="factCounter2" data-target="12">0</span>
+                                <span class="counter-value" id="factCounter2" data-target="12">12</span>
                                 <span class="fact-suffix" id="factSuffix2">+</span>
                             </div>
                             <div class="fact-label" id="factLabel2">Industries Explored</div>
                         </div>
 
                         <!-- Card 03 -->
-                        <div class="fact-card fact-card-3" id="factCard3">
+                        <div class="fact-card fact-card-3" id="factCard3" aria-label="10 Global Markets Reached">
                             <div class="fact-number-wrap">
-                                <span class="counter-value" id="factCounter3" data-target="10">0</span>
+                                <span class="counter-value" id="factCounter3" data-target="10">10</span>
                                 <span class="fact-suffix" id="factSuffix3"></span>
                             </div>
                             <div class="fact-label" id="factLabel3">Global Markets Reached</div>
                         </div>
 
                         <!-- Card 04 -->
-                        <div class="fact-card fact-card-4" id="factCard4">
+                        <div class="fact-card fact-card-4" id="factCard4" aria-label="83% Returning or Referred Clients">
                             <div class="fact-number-wrap">
-                                <span class="counter-value" id="factCounter4" data-target="83">0</span>
+                                <span class="counter-value" id="factCounter4" data-target="83">83</span>
                                 <span class="fact-suffix" id="factSuffix4">%</span>
                             </div>
                             <div class="fact-label" id="factLabel4">Returning / Referred Clients</div>

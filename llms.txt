@@ -36,6 +36,14 @@ Full-stack web software, client portals, internal dashboards, and custom e-comme
 
 ---
 
+## Key Studio Facts & Verified Benchmarks
+- **Digital Projects Delivered**: 50+ bespoke web platforms, custom web applications, and digital storefronts
+- **Industries Explored**: 12+ specialized industry sectors (luxury retail, architecture, healthcare, coaching academies, fitness, construction, photography)
+- **Global Markets Reached**: 10+ international markets (United States, United Kingdom, United Arab Emirates, Europe, Canada, Australia, India)
+- **Client Retention / Referrals**: 83% returning or referred client partnerships
+- **Lighthouse Performance Score**: 99.4 average benchmark across delivered platforms
+- **Edge First Contentful Paint (FCP)**: 0.28s–0.48s global delivery
+
 ## Selected Client Work & Portfolio
 
 LuxeStudio has delivered bespoke website building and digital systems across architecture, construction, luxury lifestyle, healthcare, fitness, and education:

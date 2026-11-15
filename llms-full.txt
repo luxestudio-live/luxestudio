@@ -30,6 +30,14 @@ LuxeStudio (https://theluxestudio.in) is an elite website building agency, softw
 
 ---
 
+## Key Studio Facts & Performance Telemetry
+- **Digital Projects Delivered**: 50+ bespoke web platforms, web applications, and digital systems successfully deployed.
+- **Industries Explored**: 12+ specialized sectors including Architecture & Interior Design, Healthcare & Medical Practices, Luxury Fashion E-Commerce, Education & Academic Coaching, Construction & Engineering, Commercial Fitness, Creative Studio Rental, and Editorial Photography.
+- **Global Markets Reached**: 10+ international markets spanning North America, the United Kingdom, Europe, the United Arab Emirates, Canada, Australia, and India.
+- **Client Retention / Referrals**: 83% returning or referred client engagements.
+- **Customer Satisfaction Rating**: Unanimous 5.0 / 5.0 appraisal across flagship client deliveries.
+- **Average Lighthouse Benchmark**: 99.4 performance score with sub-second First Contentful Paint (0.28s–0.48s).
+
 ## Detailed Capabilities & Practice Areas
 
 ### 1. Bespoke Website Building & Web Engineering
