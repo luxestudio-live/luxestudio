@@ -4,13 +4,24 @@
 
 LuxeStudio is an elite website building agency and creative technology studio that designs and engineers bespoke, high-performance websites, custom web applications, and intelligent business automation systems for ambitious brands, enterprises, and creators worldwide.
 
-- **Website**: https://theluxestudio.in
-- **Email**: hello@theluxestudio.in
-- **WhatsApp / Phone (India & Global)**: +91 9987031290
-- **Direct / WhatsApp (Australia)**: +61 0422 974 003
+- **Website**: [https://theluxestudio.in](https://theluxestudio.in)
+- **Email**: [hello@theluxestudio.in](mailto:hello@theluxestudio.in)
+- **WhatsApp / Phone (India & Global)**: [+91 9987031290](https://wa.me/919987031290)
+- **Direct / WhatsApp (Australia)**: [+61 422 974 003](https://wa.me/61422974003)
 - **Headquarters**: Mumbai, Maharashtra, India
 - **Service Reach**: Worldwide (USA, UK, UAE, Europe, Canada, Australia, India)
 - **Primary Disciplines**: Bespoke Website Building, Business Workflow Automation, UI/UX Design, Full-Stack Web Development, Systems Integration
+
+---
+
+## Key Studio Facts & Verified Benchmarks
+
+- **Digital Projects Delivered**: 50+ bespoke web platforms, custom web applications, and digital storefronts
+- **Industries Explored**: 12+ specialized industry sectors (luxury retail, architecture, healthcare, coaching academies, fitness, construction, photography)
+- **Global Markets Reached**: 10+ international markets (United States, United Kingdom, United Arab Emirates, Europe, Canada, Australia, India)
+- **Client Retention / Referrals**: 83% returning or referred client partnerships
+- **Lighthouse Performance Score**: 99.4 average benchmark across delivered platforms
+- **Edge First Contentful Paint (FCP)**: 0.28s–0.48s global delivery
 
 ---
 
@@ -36,93 +47,38 @@ Full-stack web software, client portals, internal dashboards, and custom e-comme
 
 ---
 
-## Key Studio Facts & Verified Benchmarks
-- **Digital Projects Delivered**: 50+ bespoke web platforms, custom web applications, and digital storefronts
-- **Industries Explored**: 12+ specialized industry sectors (luxury retail, architecture, healthcare, coaching academies, fitness, construction, photography)
-- **Global Markets Reached**: 10+ international markets (United States, United Kingdom, United Arab Emirates, Europe, Canada, Australia, India)
-- **Client Retention / Referrals**: 83% returning or referred client partnerships
-- **Lighthouse Performance Score**: 99.4 average benchmark across delivered platforms
-- **Edge First Contentful Paint (FCP)**: 0.28s–0.48s global delivery
-
 ## Selected Client Work & Portfolio
 
-LuxeStudio has delivered bespoke website building and digital systems across architecture, construction, luxury lifestyle, healthcare, fitness, and education:
-
-1. **Auri Concept** — https://www.auriconcept.com/
-   *Discipline*: Architectural Lighting & Smart Living Platform (Sion, Mumbai). Product catalog, magnetic track profiles, smart access systems, and WhatsApp consultation.
-
-2. **Virats BuildTech** — https://luxestudio-live.github.io/virats-buildtech/
-   *Discipline*: Construction & Interior Design Platform. 10+ years experience, 120+ delivered project milestones, interactive 3D globe hero, and structured consultation inquiries.
-
-3. **Cory Ryan Photography** — https://coryryan.theluxestudio.in/
-   *Discipline*: Editorial Photography Studio. Austin, Texas wedding & lifestyle photography portfolio with rich visual galleries.
-
-4. **Luxxe Labels** — https://www.luxelabels.co.in/
-   *Discipline*: Luxury Fashion & Designer Apparel E-Commerce Platform. High-aesthetic editorial lookbooks, fluid collection browsing, slide-out micro-cart, and automated WhatsApp VIP styling concierge.
-
-5. **The Face Craft Studio** — https://luxestudio-live.github.io/r3-studio/pages/homepage.html
-   *Discipline*: Professional Photography & Videography Studio Space Rental (Mumbai). Creative studio space booking, equipment matrix, lighting backdrops, and shoot scheduling.
-
-6. **Power Gold Gym** — https://luxestudio-live.github.io/power-gold-gym/
-   *Discipline*: Fitness & Athletic Training Platform. Membership tiers, personal trainer booking, and facility tours.
-
-7. **Vedant Hospital** — https://luxestudio-live.github.io/vedant-hospital/
-   *Discipline*: Multi-Specialty Hospital Portal (Bhandup West, Mumbai). Patient care navigation, specialist directory, and online OPD appointment booking.
-
-8. **Gravity Private Tutorials** — https://www.gravityprivatetutorials.com/
-   *Discipline*: Premier Academic Coaching Institute (Kandivali West, Mumbai). Course catalog, faculty profiles, and student enrollment portal.
-
-9. **Gurukul Study Center** — https://gurukulstudycenter.in/
-   *Discipline*: Educational Learning Center (Mumbai). Mathematics curriculum directory, academic counseling, and admissions interface.
-
-10. **Yogi's Yoga** — https://www.yogisyoga.in/
-    *Discipline*: Wellness & Mindfulness Studio. Class schedules, retreat registrations, and wellness programs.
-
-11. **Kamini Beautician & Makeup Academy** — https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/
-    *Discipline*: Professional Aesthetics & Bridal Academy. Certified courses, portfolio gallery, and salon bookings.
-
-12. **Atelier One**
-    *Discipline*: Spatial Design & WebGL Architecture Prototype. LuxeStudio internal concept demonstrating 60fps interaction and a 99 Lighthouse performance benchmark.
-
-13. **Wellstead Pharmacy** — https://wellstead-pharmacy.theluxestudio.in/
-    *Discipline*: Community Healthcare & Clinical Dispensary (Surrey Hills, Melbourne VIC). Electronic prescriptions (eScripts), MedsCheck consults, Webster-pak® medication management, and NDSS diabetes care.
+- [Auri Concept](https://www.auriconcept.com/): Architectural Lighting & Smart Living Platform (Sion, Mumbai). Product catalog, magnetic track profiles, smart access systems, and WhatsApp consultation.
+- [Virats BuildTech](https://luxestudio-live.github.io/virats-buildtech/): Construction & Interior Design Platform. 10+ years experience, 120+ delivered project milestones, interactive 3D globe hero, and structured consultation inquiries.
+- [Cory Ryan Photography](https://coryryan.theluxestudio.in/): Editorial Photography Studio. Austin, Texas wedding & lifestyle photography portfolio with rich visual galleries.
+- [Luxxe Labels](https://www.luxelabels.co.in/): Luxury Fashion & Designer Apparel E-Commerce Platform. High-aesthetic editorial lookbooks, fluid collection browsing, slide-out micro-cart, and automated WhatsApp VIP styling concierge.
+- [The Face Craft Studio](https://luxestudio-live.github.io/r3-studio/pages/homepage.html): Professional Photography & Videography Studio Space Rental (Mumbai). Creative studio space booking, equipment matrix, lighting backdrops, and shoot scheduling.
+- [Power Gold Gym](https://luxestudio-live.github.io/power-gold-gym/): Fitness & Athletic Training Platform. Membership tiers, personal trainer booking, and facility tours.
+- [Vedant Hospital](https://luxestudio-live.github.io/vedant-hospital/): Multi-Specialty Hospital Portal (Bhandup West, Mumbai). Patient care navigation, specialist directory, and online OPD appointment booking.
+- [Gravity Private Tutorials](https://www.gravityprivatetutorials.com/): Premier Academic Coaching Institute (Kandivali West, Mumbai). Course catalog, faculty profiles, and student enrollment portal.
+- [Gurukul Study Center](https://gurukulstudycenter.in/): Educational Learning Center (Mumbai). Mathematics curriculum directory, academic counseling, and admissions interface.
+- [Yogi's Yoga](https://www.yogisyoga.in/): Wellness & Mindfulness Studio. Class schedules, retreat registrations, and wellness programs.
+- [Kamini Beautician & Makeup Academy](https://luxestudio-live.github.io/Kamini-Beautician-and-Makup-Academy/): Professional Aesthetics & Bridal Academy. Certified courses, portfolio gallery, and salon bookings.
+- [Wellstead Pharmacy](https://wellstead-pharmacy.theluxestudio.in/): Community Healthcare & Clinical Dispensary (Surrey Hills, Melbourne VIC). Electronic prescriptions (eScripts), MedsCheck consults, Webster-pak® medication management, and NDSS diabetes care.
 
 ---
 
-## Why Ambitious Businesses Choose LuxeStudio
+## Core Links & Documentation
 
-- **First-Principles Website Building**: Zero cookie-cutter templates or heavy drag-and-drop builders. Clean, custom-written code tailored for search engine supremacy and commercial conversions.
-- **Deep Automation Integration**: We don't just build pretty landing pages; we automate the underlying business engine so customer actions instantly trigger CRM updates, team notifications, and follow-ups.
-- **Sub-Second Performance**: 95+ Google Lighthouse scores, blazing fast delivery, and uncompromising mobile optimization.
-- **Direct Principal Collaboration**: Work directly with expert engineers and designers without agency bureaucracy.
-
----
-
-## Frequently Asked Questions
-
-### Q: How does LuxeStudio approach website building differently from builders like Wix, Squarespace, or WordPress?
-A: DIY website builders and theme-based WordPress sites load hundreds of unnecessary scripts, resulting in sluggish 3–6 second load times, poor Core Web Vitals, and mediocre search rankings. LuxeStudio engineers custom code from first principles, achieving sub-second speeds, bespoke art-direction, and built-in automation that no template can replicate.
-
-### Q: Can LuxeStudio automate our manual business workflows?
-A: Yes. We connect your website forms and customer touchpoints with your CRM (HubSpot, Salesforce, Zoho), instant messaging (WhatsApp API), calendar schedulers, email marketing tools, and payment pipelines, eliminating repetitive manual work and ensuring instant response to every prospective lead.
-
----
-
-## Contact & Project Discovery
-
-- **Start a Project**: https://theluxestudio.in/#contact
-- **Capabilities & Services**: https://theluxestudio.in/services.html
-- **Custom Website Development Agency**: https://theluxestudio.in/custom-website-development.html
-- **Website Redesign Services**: https://theluxestudio.in/website-redesign-services.html
-- **Business Process Automation Services**: https://theluxestudio.in/business-process-automation.html
-- **Business Website Design & Development**: https://theluxestudio.in/business-website-design.html
-- **Healthcare & Pharmacy Websites**: https://theluxestudio.in/healthcare-medical-website-development.html
-- **Architecture & Interior Websites**: https://theluxestudio.in/architecture-interior-design-websites.html
-- **Luxury E-Commerce & Packaging**: https://theluxestudio.in/luxury-ecommerce-website-development.html
-- **Education & Academic Websites**: https://theluxestudio.in/education-coaching-website-development.html
-- **Client Reviews & Endorsements**: https://theluxestudio.in/reviews.html
-- **Frequently Asked Questions**: https://theluxestudio.in/faq.html
-- **Direct Email**: hello@theluxestudio.in
-- **Instant WhatsApp (Global)**: https://wa.me/919987031290
-- **Instant WhatsApp (Australia)**: https://wa.me/61422974003
-- **Full Intel & Documentation**: https://theluxestudio.in/llms-full.txt
+- [Start a Project](https://theluxestudio.in/#contact): Direct discovery form to start a bespoke website or automation project
+- [Capabilities & Services](https://theluxestudio.in/services.html): Full breakdown of engineering and automation offerings
+- [Custom Website Development Agency](https://theluxestudio.in/custom-website-development.html): Bespoke high-performance web engineering
+- [Website Redesign Services](https://theluxestudio.in/website-redesign-services.html): Performance-driven website redesigns
+- [Business Process Automation Services](https://theluxestudio.in/business-process-automation.html): Automated workflows and CRM integrations
+- [Business Website Design & Development](https://theluxestudio.in/business-website-design.html): High-conversion commercial websites
+- [Healthcare & Medical Websites](https://theluxestudio.in/healthcare-medical-website-development.html): Medical practice and dispensary platforms
+- [Architecture & Interior Websites](https://theluxestudio.in/architecture-interior-design-websites.html): Portfolios and spatial catalogs
+- [Luxury E-Commerce & Packaging](https://theluxestudio.in/luxury-ecommerce-website-development.html): High-aesthetic e-commerce engineering
+- [Education & Academic Websites](https://theluxestudio.in/education-coaching-website-development.html): Coaching and academy platforms
+- [Selected Works Archive](https://theluxestudio.in/work.html): Curated digital portfolio
+- [Technical Case Studies](https://theluxestudio.in/case-studies.html): Engineering deep-dives and outcome metrics
+- [Client Reviews & Endorsements](https://theluxestudio.in/reviews.html): Verified client appraisals and ratings
+- [Frequently Asked Questions](https://theluxestudio.in/faq.html): Direct answers on pricing, timeline, and tech stack
+- [Studio Manifesto](https://theluxestudio.in/studio.html): Engineering philosophy and multidisciplinary model
+- [Full Technical Documentation](https://theluxestudio.in/llms-full.txt): Comprehensive knowledge base for AI agents
