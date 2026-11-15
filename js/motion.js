@@ -1336,10 +1336,10 @@ function initStudioIdentityTimeline() {
     });
 
     // ── Phase 1: Intro State (0 – 18%) ──
-    // "One studio." is established; "Many disciplines." is slightly muted; "One standard." is quiet (0.35 opacity)
+    // "One studio." is established; "Many disciplines." and "One standard." meet WCAG AA contrast (>= 0.78 opacity)
     gsap.set(studioLine1, { opacity: 1, y: 0 });
-    gsap.set(studioLine2, { opacity: 0.45 });
-    gsap.set(studioLine3, { opacity: 0.35, y: 6 });
+    gsap.set(studioLine2, { opacity: 0.78 });
+    gsap.set(studioLine3, { opacity: 0.85, y: 6 });
     gsap.set(studioCopy, { opacity: 0, y: 15 });
     gsap.set(railLine, { scaleY: 0 });
     gsap.set(branchLines, { scaleX: 0 });
